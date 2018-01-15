@@ -4,7 +4,11 @@
 	<Property Name="varPersistentID:{15F5A9D9-738F-4495-8E98-6D9238F106D6}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trig_DutyCycle_Per</Property>
 	<Property Name="varPersistentID:{16D6CD42-9A4E-4878-BA80-E8590E727808}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Step_Size_nm</Property>
 	<Property Name="varPersistentID:{25443B6C-E09F-4D30-8CFF-1ED72C06D945}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trigger_Freq_Hz</Property>
+	<Property Name="varPersistentID:{909B8FD4-D04C-4FD8-8AE0-8E289CEEA62D}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/New Command</Property>
+	<Property Name="varPersistentID:{9296C7B9-9CA4-447D-8AC9-8A8741AC7A2F}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Write Data</Property>
 	<Property Name="varPersistentID:{9BCA76E7-2E04-448D-A79B-910C4E54BFBC}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Write_Data</Property>
+	<Property Name="varPersistentID:{9C3D7BBF-8950-48C2-8BBA-AAE85FAA9212}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Fly Scan Start</Property>
+	<Property Name="varPersistentID:{A234950B-9C47-48C3-8643-ACD397DF7636}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/SM state</Property>
 	<Property Name="varPersistentID:{C8E4E2E9-CD1B-4C58-BD6F-A0E87B99F550}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Flyscan_Start</Property>
 	<Property Name="varPersistentID:{E38D46B2-C5A1-4DC5-A60D-E8FBDF4F21DF}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Start_nm</Property>
 	<Property Name="varPersistentID:{EB39AC6D-4DBC-44A4-98ED-C75D42DB4616}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_End_nm</Property>
@@ -1650,6 +1654,8 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Interloop communication.lvlib" Type="Library" URL="../Interloop communication.lvlib"/>
+		<Item Name="Read_coeff.vi" Type="VI" URL="../RT VIs/Read_coeff.vi"/>
 		<Item Name="RT_EPICS_Client.lvlib" Type="Library" URL="../RT VIs/RT_Client/RT_EPICS_Client.lvlib"/>
 		<Item Name="RT_EPICS_Shared_Variables.lvlib" Type="Library" URL="../RT VIs/RT_Client/RT_EPICS_Shared_Variables.lvlib"/>
 		<Item Name="Velociprobe_Nanopositioner.html" Type="Document" URL="../www/Velociprobe_Nanopositioner.html"/>
