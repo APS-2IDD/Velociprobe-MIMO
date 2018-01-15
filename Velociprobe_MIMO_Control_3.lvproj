@@ -10,6 +10,7 @@
 	<Property Name="varPersistentID:{EB39AC6D-4DBC-44A4-98ED-C75D42DB4616}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_End_nm</Property>
 	<Property Name="varPersistentID:{F9B7B7E1-427A-44B1-84C0-E951424CD391}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Step_Size_nm</Property>
 	<Property Name="varPersistentID:{FBA44DE5-1498-45AF-BD62-A538893FFBE0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_End_nm</Property>
+	<Property Name="varPersistentID:{FE72D43F-1AFA-45F8-8FBB-5808B8CF1578}" Type="Ref">/RT CompactRIO Target/Monitor SVs.lvlib/Error Monitor</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -1650,10 +1651,12 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Monitor SVs.lvlib" Type="Library" URL="../Monitor SVs.lvlib"/>
 		<Item Name="RT_EPICS_Client.lvlib" Type="Library" URL="../RT VIs/RT_Client/RT_EPICS_Client.lvlib"/>
 		<Item Name="RT_EPICS_Shared_Variables.lvlib" Type="Library" URL="../RT VIs/RT_Client/RT_EPICS_Shared_Variables.lvlib"/>
 		<Item Name="Velociprobe_Nanopositioner.html" Type="Document" URL="../www/Velociprobe_Nanopositioner.html"/>
 		<Item Name="Velociprobe_Nanopositioner_Control_RT_2.vi" Type="VI" URL="../RT VIs/Velociprobe_Nanopositioner_Control_RT_2.vi"/>
+		<Item Name="VP_FP.html" Type="Document" URL="../www/VP_FP.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -1753,7 +1756,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EECDF2D9-05BB-4075-8201-0F5F5BF4B926}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -1767,7 +1770,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9A64AD33-6684-4AB5-80C9-D7AC767AF99E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6005885E-0991-47E9-9F6A-B26160A1FC75}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Velociprobe_Nanopositioner_Control_RT_2.vi</Property>
@@ -1775,8 +1778,10 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/Velociprobe_Nanopositioner.html</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/VP_FP.html</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-MIMO-RT</Property>
 				<Property Name="TgtF_internalName" Type="Str">Velociprobe-MIMO-RT</Property>
