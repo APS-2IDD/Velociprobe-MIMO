@@ -19,11 +19,11 @@
 		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Base_Filename\VAL</Property>
 	</Item>
-	<Item Name="2iddVELO:VP:Flyscan_Start" Type="Variable">
+	<Item Name="2iddVELO:VP:Fly_Scan" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
-		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Flyscan_Start\VAL</Property>
+		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Fly_Scan\VAL</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -31,8 +31,8 @@
 		<Property Name="Path" Type="Str">/Velociprobe_MIMO_Control_3.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
-		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Flyscan_Start\VAL</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
+		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Fly_Scan\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Last_File_Path" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -64,18 +64,46 @@
 		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Last_Filename\VAL</Property>
 	</Item>
-	<Item Name="2iddVELO:VP:Remote_Fly" Type="Variable">
+	<Item Name="2iddVELO:VP:Local_Lock" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
-		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Remote_Fly\VAL</Property>
+		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Local_Lock\VAL</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
-		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Remote_Fly\VAL</Property>
+		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Local_Lock\VAL</Property>
+	</Item>
+	<Item Name="2iddVELO:VP:Remote_Scan" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
+		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Remote_Scan\VAL</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
+		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Remote_Scan\VAL</Property>
+	</Item>
+	<Item Name="2iddVELO:VP:Start_Scan" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
+		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Start_Scan\VAL</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/Velociprobe_MIMO_Control_3.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
+		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Start_Scan\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Trig_DutyCycle_Per" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
