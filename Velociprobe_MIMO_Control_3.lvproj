@@ -13,6 +13,7 @@
 	<Property Name="varPersistentID:{771CEBFB-D8B2-4ACD-815D-05BB8EC34ECE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/EPICS Comms Error</Property>
 	<Property Name="varPersistentID:{909B8FD4-D04C-4FD8-8AE0-8E289CEEA62D}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/New Command</Property>
 	<Property Name="varPersistentID:{9296C7B9-9CA4-447D-8AC9-8A8741AC7A2F}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Write Data</Property>
+	<Property Name="varPersistentID:{9B2BDE3D-0A6B-4D70-8739-E94B3FED7BA5}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Fly_Scanning</Property>
 	<Property Name="varPersistentID:{9BCA76E7-2E04-448D-A79B-910C4E54BFBC}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Write_Data</Property>
 	<Property Name="varPersistentID:{9C3D7BBF-8950-48C2-8BBA-AAE85FAA9212}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Fly Scan Flag</Property>
 	<Property Name="varPersistentID:{C463ECF1-AA3F-409E-B686-B5DC0D591D60}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Last_Filename</Property>

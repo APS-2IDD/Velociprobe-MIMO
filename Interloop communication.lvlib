@@ -68,7 +68,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Command Enum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../RT VIs/Command Enum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#)B!!!!"5!A!!!!!!"!()!]1!!!!!!!!!"%%.P&lt;7VB&lt;G1A27ZV&lt;3ZD&gt;'Q!75!7!!5/5G5N37ZJ&gt;'FB&lt;'F[:3!568"E982F)&amp;.D97YA5W6U&gt;'FO:X-%5W.B&lt;AF4&gt;'^Q)&amp;.D97Y-5G6T&gt;'&amp;S&gt;#"'5%&gt;"!!R$&lt;WVN97ZE)'6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#5E!!!!"5!A!!!!!!"!(Y!]1!!!!!!!!!"%%.P&lt;7VB&lt;G1A27ZV&lt;3ZD&gt;'Q!:5!7!!9/5G5N37ZJ&gt;'FB&lt;'F[:3!568"E982F)&amp;.D97YA5W6U&gt;'FO:X-%5W.B&lt;AF4&gt;'^Q)&amp;.D97Y-5G6T&gt;'&amp;S&gt;#"'5%&gt;"#V.U&lt;X!A5XFT&gt;'6N!!R$&lt;WVN97ZE)'6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Write Data" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
