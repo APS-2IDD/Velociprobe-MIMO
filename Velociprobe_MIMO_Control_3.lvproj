@@ -17,6 +17,7 @@
 	<Property Name="varPersistentID:{9BCA76E7-2E04-448D-A79B-910C4E54BFBC}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Write_Data</Property>
 	<Property Name="varPersistentID:{9C3D7BBF-8950-48C2-8BBA-AAE85FAA9212}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Fly Scan Flag</Property>
 	<Property Name="varPersistentID:{C463ECF1-AA3F-409E-B686-B5DC0D591D60}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Last_Filename</Property>
+	<Property Name="varPersistentID:{C68DC714-70D2-4AF7-BA99-F3471D04B1C1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/FPGA startup error</Property>
 	<Property Name="varPersistentID:{C8E4E2E9-CD1B-4C58-BD6F-A0E87B99F550}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Fly_Scan</Property>
 	<Property Name="varPersistentID:{D445E718-F372-4531-83A3-C074BD004F58}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Remote_Scan</Property>
 	<Property Name="varPersistentID:{D91DBBE3-CEED-4DAE-AF23-906E085C87A1}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Local_Lock</Property>
@@ -43,6 +44,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="bits" Type="Folder">
+			<Item Name="stubs.vi" Type="VI" URL="../bits/stubs.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -135,12 +139,6 @@ DirectoryIndex index.htm
 			<Item Name="Data Read Control.ctl" Type="VI" URL="../RT VIs/Data Read Control.ctl"/>
 			<Item Name="Data Read Write Control.ctl" Type="VI" URL="../RT VIs/Data Read Write Control.ctl"/>
 			<Item Name="Command Enum.ctl" Type="VI" URL="../RT VIs/Command Enum.ctl"/>
-		</Item>
-		<Item Name="Other RT" Type="Folder">
-			<Item Name="Velociprobe_Nanopositioner_Control_RT 2b.vi" Type="VI" URL="../RT VIs/Velociprobe_Nanopositioner_Control_RT 2b.vi"/>
-			<Item Name="Velociprobe_Nanopositioner_Control_RT 2c.vi" Type="VI" URL="../RT VIs/Velociprobe_Nanopositioner_Control_RT 2c.vi"/>
-			<Item Name="Velociprobe_Nanopositioner_Control_RT 3.vi" Type="VI" URL="../RT VIs/Velociprobe_Nanopositioner_Control_RT 3.vi"/>
-			<Item Name="Velociprobe_Nanopositioner_Control_RT.vi" Type="VI" URL="../RT VIs/Velociprobe_Nanopositioner_Control_RT.vi"/>
 		</Item>
 		<Item Name="sub-VIs" Type="Folder">
 			<Item Name="Convert Measured Rate.vi" Type="VI" URL="../RT VIs/Convert Measured Rate.vi"/>
@@ -1722,38 +1720,18 @@ DirectoryIndex index.htm
 		<Item Name="RT_EPICS_Shared_Variables.lvlib" Type="Library" URL="../RT VIs/RT_Client/RT_EPICS_Shared_Variables.lvlib"/>
 		<Item Name="Velociprobe_Nanopositioner_Control_RT_2.vi" Type="VI" URL="../RT VIs/Velociprobe_Nanopositioner_Control_RT_2.vi"/>
 		<Item Name="VP_FP.html" Type="Document" URL="../www/VP_FP.html"/>
+		<Item Name="VP_RT.html" Type="Document" URL="../www/VP_RT.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FpgaMspHost.lvlib" Type="Library" URL="/&lt;vilib&gt;/rvi/Analysis/host/Public/NI_FpgaMspHost.lvlib"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
@@ -1761,17 +1739,8 @@ DirectoryIndex index.htm
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 			</Item>
@@ -1782,7 +1751,7 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="State Control.vi" Type="VI" URL="../RT VIs/State Control.vi"/>
 			<Item Name="State Enum.ctl" Type="VI" URL="../RT VIs/State Enum.ctl"/>
-			<Item Name="VelociprobeMIMOC_FPGATarget_VelociprobeNanop_BL9YwNYTCZw.lvbitx" Type="Document" URL="../FPGA Bitfiles/VelociprobeMIMOC_FPGATarget_VelociprobeNanop_BL9YwNYTCZw.lvbitx"/>
+			<Item Name="VelociprobeMIMOC_FPGATarget_VPNanoPositioner_H6rXR5e4prA.lvbitx" Type="Document" URL="../FPGA Bitfiles/VelociprobeMIMOC_FPGATarget_VPNanoPositioner_H6rXR5e4prA.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Velociprobe-MIMO-RT" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1802,7 +1771,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EECDF2D9-05BB-4075-8201-0F5F5BF4B926}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
