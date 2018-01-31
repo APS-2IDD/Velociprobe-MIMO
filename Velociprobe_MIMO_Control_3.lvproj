@@ -1,6 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
-	<Property Name="varPersistentID:{0030B646-BE8E-4354-BA16-F2C389998B15}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/X_End_nm</Property>
 	<Property Name="varPersistentID:{07806F75-83B8-41FF-B17C-107897E443F0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Start_nm</Property>
 	<Property Name="varPersistentID:{0B390427-CF17-4F64-93C2-6C75587D6E4A}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Last_File_Path</Property>
 	<Property Name="varPersistentID:{100C84A1-AC5D-48C6-9115-6F22DD5623C7}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Base_Filename</Property>
@@ -8,41 +7,25 @@
 	<Property Name="varPersistentID:{16D6CD42-9A4E-4878-BA80-E8590E727808}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Step_Size_nm</Property>
 	<Property Name="varPersistentID:{170DCBE3-0E46-42EF-8FF5-7A16CC6AFA8B}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Main Loop Error</Property>
 	<Property Name="varPersistentID:{1D529166-11CE-4616-88D9-250CEBFC7A8E}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Base Filename</Property>
-	<Property Name="varPersistentID:{1ED72AC6-E39B-476D-BE0B-B6447CAB003D}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/X_Start_nm</Property>
-	<Property Name="varPersistentID:{223E60A1-B448-445D-B691-75CBD3B3CFA2}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Trigger_Freq_Hz</Property>
 	<Property Name="varPersistentID:{25443B6C-E09F-4D30-8CFF-1ED72C06D945}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trigger_Freq_Hz</Property>
-	<Property Name="varPersistentID:{2EECF094-4407-4284-B812-CD4364BD9303}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Local_Lock</Property>
 	<Property Name="varPersistentID:{3500A89E-62DE-472D-97B3-2E47DBC394E3}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Start_Scan</Property>
-	<Property Name="varPersistentID:{36814004-007C-41D9-BF77-36B827AB5B01}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Last_File_Path</Property>
-	<Property Name="varPersistentID:{412B3CB4-E946-427E-99B9-7BD0881656DA}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Base_Filename</Property>
-	<Property Name="varPersistentID:{478B740F-DBD2-40F0-B8D4-C142F2B50599}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Last_Filename</Property>
 	<Property Name="varPersistentID:{579BF611-4497-4628-951D-C4D72C8429E1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Readback Loop Error</Property>
-	<Property Name="varPersistentID:{753C3D1C-B13D-4E5B-8433-D0EF04F79625}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Fly_Scan</Property>
 	<Property Name="varPersistentID:{771CEBFB-D8B2-4ACD-815D-05BB8EC34ECE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/EPICS Comms Error</Property>
-	<Property Name="varPersistentID:{8062799F-F4C0-4102-B3CF-8B6BB4509EB1}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Remote_Scan</Property>
-	<Property Name="varPersistentID:{8F474BE9-68FE-4EA3-8D82-89686EA0227A}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Write_Data</Property>
 	<Property Name="varPersistentID:{909B8FD4-D04C-4FD8-8AE0-8E289CEEA62D}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/New Command</Property>
 	<Property Name="varPersistentID:{9296C7B9-9CA4-447D-8AC9-8A8741AC7A2F}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Write Data</Property>
 	<Property Name="varPersistentID:{9B2BDE3D-0A6B-4D70-8739-E94B3FED7BA5}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Fly_Scanning</Property>
 	<Property Name="varPersistentID:{9BCA76E7-2E04-448D-A79B-910C4E54BFBC}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Write_Data</Property>
 	<Property Name="varPersistentID:{9C3D7BBF-8950-48C2-8BBA-AAE85FAA9212}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Fly Scan Flag</Property>
-	<Property Name="varPersistentID:{B39203C9-ACE4-48F2-87FD-E578B1CFBD83}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Y_Start_nm</Property>
-	<Property Name="varPersistentID:{B6064214-F225-4A89-B5C5-07760E6A5E83}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Y_End_nm</Property>
 	<Property Name="varPersistentID:{C463ECF1-AA3F-409E-B686-B5DC0D591D60}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Last_Filename</Property>
 	<Property Name="varPersistentID:{C68DC714-70D2-4AF7-BA99-F3471D04B1C1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/FPGA startup error</Property>
 	<Property Name="varPersistentID:{C8E4E2E9-CD1B-4C58-BD6F-A0E87B99F550}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Fly_Scan</Property>
-	<Property Name="varPersistentID:{C9C35F39-E132-4AD0-A10E-44CABD1A104E}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Trig_DutyCycle_Per</Property>
 	<Property Name="varPersistentID:{D445E718-F372-4531-83A3-C074BD004F58}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Remote_Scan</Property>
 	<Property Name="varPersistentID:{D91DBBE3-CEED-4DAE-AF23-906E085C87A1}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Local_Lock</Property>
-	<Property Name="varPersistentID:{D98DD896-8F17-4FF5-8113-40C661C933F1}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Fly_Scanning</Property>
 	<Property Name="varPersistentID:{DC06C484-F4D1-4724-BA52-72B10A9B60CE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/System command</Property>
 	<Property Name="varPersistentID:{E38D46B2-C5A1-4DC5-A60D-E8FBDF4F21DF}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Start_nm</Property>
-	<Property Name="varPersistentID:{EA6700C2-49A7-47D1-A59E-F546648A2921}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Start_Scan</Property>
 	<Property Name="varPersistentID:{EB39AC6D-4DBC-44A4-98ED-C75D42DB4616}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_End_nm</Property>
-	<Property Name="varPersistentID:{F464AADB-81C9-4B92-ACC8-ED8E087BFB04}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/X_Step_Size_nm</Property>
 	<Property Name="varPersistentID:{F9B7B7E1-427A-44B1-84C0-E951424CD391}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Step_Size_nm</Property>
 	<Property Name="varPersistentID:{FBA44DE5-1498-45AF-BD62-A538893FFBE0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_End_nm</Property>
-	<Property Name="varPersistentID:{FF4E60D9-25FD-4D26-A224-E5A370A9078D}" Type="Ref">/RT CompactRIO Target/VP_EPICS_Shared.lvlib/Y_Step_Size_nm</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -1737,7 +1720,6 @@ DirectoryIndex index.htm
 		<Item Name="RT_EPICS_Shared_Variables.lvlib" Type="Library" URL="../RT VIs/RT_Client/RT_EPICS_Shared_Variables.lvlib"/>
 		<Item Name="Velociprobe_Nanopositioner_Control_RT_2.vi" Type="VI" URL="../RT VIs/Velociprobe_Nanopositioner_Control_RT_2.vi"/>
 		<Item Name="VP_FP.html" Type="Document" URL="../www/VP_FP.html"/>
-		<Item Name="VP_EPICS_Shared.lvlib" Type="Library" URL="../VP_EPICS_Shared.lvlib"/>
 		<Item Name="Data file status Enum.ctl" Type="VI" URL="../RT VIs/Data file status Enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1789,7 +1771,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EECDF2D9-05BB-4075-8201-0F5F5BF4B926}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">41</Property>
+				<Property Name="Bld_version.build" Type="Int">46</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
