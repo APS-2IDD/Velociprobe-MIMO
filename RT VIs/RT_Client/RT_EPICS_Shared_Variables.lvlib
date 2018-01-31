@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="2iddVELO:VP:Base_Filename" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Base_Filename</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Base_Filename\VAL</Property>
@@ -37,6 +38,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Fly_Scanning" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Fly_Scanning</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Fly_Scanning</Property>
@@ -52,6 +54,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Last_File_Path" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Last_File_Path</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Last_File_Path\VAL</Property>
@@ -67,6 +70,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Last_Filename" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Last_Filename</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Last_Filename\VAL</Property>
@@ -82,6 +86,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Local_Lock" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Local_Lock</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Local_Lock\VAL</Property>
@@ -95,6 +100,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Remote_Scan" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Remote_Scan</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Remote_Scan\VAL</Property>
@@ -108,6 +114,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Start_Scan" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Start_Scan</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Start_Scan\VAL</Property>
@@ -123,6 +130,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Trig_DutyCycle_Per" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Trig_DutyCycle_Per</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Trig_DutyCycle\VAL</Property>
@@ -136,6 +144,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Trigger_Freq_Hz" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Trigger_Freq_Hz</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Trigger_Freq_Hz\VAL</Property>
@@ -149,6 +158,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Write_Data" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Write_Data</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Write_Data\VAL</Property>
@@ -162,6 +172,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:X_End_nm" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:X_End_nm</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:X_End\VAL</Property>
@@ -175,6 +186,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:X_Start_nm" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:X_Start_nm</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:X_Start\VAL</Property>
@@ -189,6 +201,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:X_Step_Size_nm" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:X_Step_Size_nm</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:X_Step_Size\VAL</Property>
@@ -202,6 +215,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Y_End_nm" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Y_End_nm</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Y_End\VAL</Property>
@@ -215,6 +229,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Y_Start_nm" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Y_Start_nm</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Y_Start\VAL</Property>
@@ -228,6 +243,7 @@
 	</Item>
 	<Item Name="2iddVELO:VP:Y_Step_Size_nm" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="name" Type="Str">2iddVELO:VP:Y_Step_Size_nm</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
 		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Y_Step_Size\VAL</Property>
