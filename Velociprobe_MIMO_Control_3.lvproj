@@ -1639,6 +1639,9 @@ DirectoryIndex index.htm
 						<Item Name="niFpgaDdsAccum.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/siggen/SquareWave/templates/niFpgaDdsAccum.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
+					<Item Name="Detector_Trigger_Control.ctl" Type="VI" URL="../FPGA VIs/Detector_Trigger_Control.ctl"/>
+					<Item Name="measure_loop_rate_FPGA.vi" Type="VI" URL="../FPGA VIs/measure_loop_rate_FPGA.vi"/>
+					<Item Name="Saw Wave Generator.vi" Type="VI" URL="../FPGA VIs/Saw Wave Generator.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Velociprobe_Nanopositioner_Control_FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -1788,8 +1791,11 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].destName" Type="Str">www</Property>
 				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B5880D44-0207-4240-BECB-AAF5A7FE5F26}</Property>
+				<Property Name="Destination[3].destName" Type="Str">controller</Property>
+				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controller</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{97317C86-5C8E-4A6F-B6C7-2D228D6EC788}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Velociprobe_Nanopositioner_Control_RT_2.vi</Property>
