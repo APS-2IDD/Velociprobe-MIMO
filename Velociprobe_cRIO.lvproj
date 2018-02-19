@@ -1,24 +1,30 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
+	<Property Name="varPersistentID:{00E67AA3-76FC-49D7-BC23-AAC9BA9DC2E3}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Controller_Type</Property>
+	<Property Name="varPersistentID:{0232476F-F4C8-430C-A7DB-C1250A6294A4}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:cRIO_Command</Property>
 	<Property Name="varPersistentID:{07806F75-83B8-41FF-B17C-107897E443F0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Start_nm</Property>
-	<Property Name="varPersistentID:{0B390427-CF17-4F64-93C2-6C75587D6E4A}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Last_File_Path</Property>
+	<Property Name="varPersistentID:{0B390427-CF17-4F64-93C2-6C75587D6E4A}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:cRIO_Dir</Property>
 	<Property Name="varPersistentID:{100C84A1-AC5D-48C6-9115-6F22DD5623C7}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Base_Filename</Property>
 	<Property Name="varPersistentID:{15F5A9D9-738F-4495-8E98-6D9238F106D6}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trig_DutyCycle_Per</Property>
 	<Property Name="varPersistentID:{16D6CD42-9A4E-4878-BA80-E8590E727808}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Step_Size_nm</Property>
 	<Property Name="varPersistentID:{170DCBE3-0E46-42EF-8FF5-7A16CC6AFA8B}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Main Loop Error</Property>
 	<Property Name="varPersistentID:{1D529166-11CE-4616-88D9-250CEBFC7A8E}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Base Filename</Property>
 	<Property Name="varPersistentID:{25443B6C-E09F-4D30-8CFF-1ED72C06D945}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trigger_Freq_Hz</Property>
+	<Property Name="varPersistentID:{2D177B0E-329A-4A70-8EB8-130E220BA806}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scan_Type</Property>
+	<Property Name="varPersistentID:{303174A8-EA4A-4945-878B-031E023B6082}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:FPGA_State</Property>
 	<Property Name="varPersistentID:{3500A89E-62DE-472D-97B3-2E47DBC394E3}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Start_Scan</Property>
 	<Property Name="varPersistentID:{579BF611-4497-4628-951D-C4D72C8429E1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Readback Loop Error</Property>
+	<Property Name="varPersistentID:{652C573F-17B4-4108-9B20-80F96968CFD0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Execute_Command</Property>
 	<Property Name="varPersistentID:{771CEBFB-D8B2-4ACD-815D-05BB8EC34ECE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/EPICS Comms Error</Property>
 	<Property Name="varPersistentID:{909B8FD4-D04C-4FD8-8AE0-8E289CEEA62D}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/New Command</Property>
 	<Property Name="varPersistentID:{9296C7B9-9CA4-447D-8AC9-8A8741AC7A2F}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Write Data</Property>
-	<Property Name="varPersistentID:{9B2BDE3D-0A6B-4D70-8739-E94B3FED7BA5}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Fly_Scanning</Property>
+	<Property Name="varPersistentID:{9B2BDE3D-0A6B-4D70-8739-E94B3FED7BA5}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scanning</Property>
 	<Property Name="varPersistentID:{9BCA76E7-2E04-448D-A79B-910C4E54BFBC}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Write_Data</Property>
 	<Property Name="varPersistentID:{9C3D7BBF-8950-48C2-8BBA-AAE85FAA9212}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Fly Scan Flag</Property>
 	<Property Name="varPersistentID:{C463ECF1-AA3F-409E-B686-B5DC0D591D60}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Last_Filename</Property>
 	<Property Name="varPersistentID:{C68DC714-70D2-4AF7-BA99-F3471D04B1C1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/FPGA startup error</Property>
 	<Property Name="varPersistentID:{C8E4E2E9-CD1B-4C58-BD6F-A0E87B99F550}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Fly_Scan</Property>
+	<Property Name="varPersistentID:{CBA1F887-4B64-481D-A561-A13D031B7450}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:RT_State</Property>
 	<Property Name="varPersistentID:{D445E718-F372-4531-83A3-C074BD004F58}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Remote_Scan</Property>
 	<Property Name="varPersistentID:{D91DBBE3-CEED-4DAE-AF23-906E085C87A1}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Local_Lock</Property>
 	<Property Name="varPersistentID:{DC06C484-F4D1-4724-BA52-72B10A9B60CE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/System command</Property>
@@ -1769,9 +1775,10 @@ DirectoryIndex index.htm
 		<Item Name="RT_EPICS_Client.lvlib" Type="Library" URL="../RT VIs/RT_Client/RT_EPICS_Client.lvlib"/>
 		<Item Name="RT_EPICS_Shared_Variables.lvlib" Type="Library" URL="../RT VIs/RT_Client/RT_EPICS_Shared_Variables.lvlib"/>
 		<Item Name="VP_RT_standard.vi" Type="VI" URL="../RT VIs/VP_RT_standard.vi"/>
-		<Item Name="VP_FP.html" Type="Document" URL="../www/VP_FP.html"/>
 		<Item Name="VP_RT_dual.vi" Type="VI" URL="../RT VIs/VP_RT_dual.vi"/>
 		<Item Name="Scan type.ctl" Type="VI" URL="../RT VIs/Scan type.ctl"/>
+		<Item Name="VP_FP_diag.html" Type="Document" URL="../www/VP_FP_diag.html"/>
+		<Item Name="VP_FP_full.html" Type="Document" URL="../www/VP_FP_full.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -1792,7 +1799,7 @@ DirectoryIndex index.htm
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
-				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2015/Targets/NI/RT/vi.lib/NI_Real-Time Target Support.lvlib"/>
+				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 			</Item>
 			<Item Name="Data Write Control.ctl" Type="VI" URL="../RT VIs/Data Write Control.ctl"/>
@@ -1806,7 +1813,7 @@ DirectoryIndex index.htm
 			<Item Name="VP_ NP_FPGA_Diagonalized.lvbitx" Type="Document" URL="../FPGA Bitfiles/VP_ NP_FPGA_Diagonalized.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Velociprobe-MIMO-RT" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+			<Item Name="Velociprobe-Full" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{FA74843F-F4FD-4791-A2A9-B03AAB7C866A}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{791BBC5A-155C-4962-87C3-C0328A0DB099}</Property>
@@ -1814,11 +1821,11 @@ DirectoryIndex index.htm
 				<Property Name="App_winsec.description" Type="Str">http://www.ANL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AFB0A49E-138A-4413-A21A-B9ABB1CFE434}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Velociprobe-MIMO-RT</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Velociprobe-Full</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/Velociprobe-MIMO-RT</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/Velociprobe-Full</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EECDF2D9-05BB-4075-8201-0F5F5BF4B926}</Property>
@@ -1840,21 +1847,80 @@ DirectoryIndex index.htm
 				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controller</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{97317C86-5C8E-4A6F-B6C7-2D228D6EC788}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1B524E17-4F9C-44D9-A434-7A5CE493577C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_standard.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_FP.html</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_full.html</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-MIMO-RT</Property>
-				<Property Name="TgtF_internalName" Type="Str">Velociprobe-MIMO-RT</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-Full</Property>
+				<Property Name="TgtF_internalName" Type="Str">Velociprobe-Full</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 ANL</Property>
-				<Property Name="TgtF_productName" Type="Str">Velociprobe-MIMO-RT</Property>
+				<Property Name="TgtF_productName" Type="Str">Velociprobe-Full</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{172E059B-AB92-4462-8D38-75C7F8CB04F2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
+			</Item>
+			<Item Name="Velociprobe-Diag" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{69E3DC65-9EE3-499E-81B8-3D127D16BEDE}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{9BC7ED0B-7332-49C7-A902-F271FA9AFEBE}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.ANL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{429A0FBF-5B57-4C16-8E9D-506ED4B4F544}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Velociprobe-Diag</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/Velociprobe-Diag</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5C709ECD-3791-4EBA-B053-0A22436A1911}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">57</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].destName" Type="Str">www</Property>
+				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[3].destName" Type="Str">controller</Property>
+				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controller</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1B524E17-4F9C-44D9-A434-7A5CE493577C}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_standard.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_diag.html</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-Full</Property>
+				<Property Name="TgtF_internalName" Type="Str">Velociprobe-Full</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 ANL</Property>
+				<Property Name="TgtF_productName" Type="Str">Velociprobe-Full</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{172E059B-AB92-4462-8D38-75C7F8CB04F2}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 			</Item>
