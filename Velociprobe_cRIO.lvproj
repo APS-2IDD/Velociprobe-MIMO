@@ -159,6 +159,22 @@ DirectoryIndex index.htm
 			<Item Name="Read_coeff.vi" Type="VI" URL="../RT VIs/Read_coeff.vi"/>
 			<Item Name="Create_Filename.vi" Type="VI" URL="../RT VIs/Create_Filename.vi"/>
 		</Item>
+		<Item Name="controller files" Type="Folder">
+			<Item Name="allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat" Type="Document" URL="../controllers/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat"/>
+			<Item Name="allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff2.mat" Type="Document" URL="../controllers/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff2.mat"/>
+			<Item Name="Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx1.mat" Type="Document" URL="../controllers/Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx1.mat"/>
+			<Item Name="Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx2.mat" Type="Document" URL="../controllers/Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx2.mat"/>
+			<Item Name="Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx1.mat" Type="Document" URL="../controllers/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx1.mat"/>
+			<Item Name="Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx2.mat" Type="Document" URL="../controllers/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx2.mat"/>
+			<Item Name="Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy1.mat" Type="Document" URL="../controllers/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy1.mat"/>
+			<Item Name="Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy2.mat" Type="Document" URL="../controllers/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy2.mat"/>
+			<Item Name="Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy1.mat" Type="Document" URL="../controllers/Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy1.mat"/>
+			<Item Name="Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy2.mat" Type="Document" URL="../controllers/Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy2.mat"/>
+			<Item Name="Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz1.mat" Type="Document" URL="../controllers/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz1.mat"/>
+			<Item Name="Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz2.mat" Type="Document" URL="../controllers/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz2.mat"/>
+			<Item Name="Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz1.mat" Type="Document" URL="../controllers/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz1.mat"/>
+			<Item Name="Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat" Type="Document" URL="../controllers/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat"/>
+		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1626,7 +1642,7 @@ DirectoryIndex index.htm
 					<Property Name="FPGA.PersistentID" Type="Str">{CCC177DD-B41C-4866-9A22-57B081DDB6BA}</Property>
 				</Item>
 				<Item Name="VP_NanoPositioner_FPGA.vi" Type="VI" URL="../FPGA VIs/VP_NanoPositioner_FPGA.vi">
-					<Property Name="BuildSpec" Type="Str">{3609314D-09B9-4286-94A6-2CC1A9F5D474}</Property>
+					<Property Name="BuildSpec" Type="Str">{D5DA693E-09D2-4196-B640-6D6F99202391}</Property>
 					<Property Name="configString.guid" Type="Str">{009A79F3-F010-4155-AADB-D782FE3A6DA7}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{08DF1A99-BAE8-49FB-8340-9B9651CAEB95}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8{09ABF6BF-EB61-4BBC-9240-60BA902D227B}resource=/crio_Mod3/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{0B7BD508-9A0A-471A-B626-694E542EEBF5}resource=/crio_Mod1/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_4.ctl{1001C9F9-9E33-4A62-8921-9746AA7970EE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{111368F7-DB2A-4061-A032-6BB77A916770}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9402,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kInitialLineDirection="0000",cRIOModule.RsiAttributes=[crioConfig.End]{18022BB4-236F-4854-A8A3-0CF49AFAEFCB}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{20BDE2DB-970F-42BB-9E88-F7819A9B48F7}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{294F8BFF-6230-4DD8-A36C-9C3CAB1450FB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{2BBD9299-56B9-4203-A281-002CCFB34564}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{2E6A2AD8-6045-4A8A-9CF7-2A522FEF6254}resource=/crio_Mod1/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_4.ctl{32ABB26F-35E1-4513-BA05-979DA299F065}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod6/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{39A5B446-A61F-49B2-A42E-73989F6DAABF}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9260,cRIOModule.ClockSource=0,cRIOModule.DataRate=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0[crioConfig.End]{47C78B19-50A5-43EE-9FBC-FB868EECFCC4}resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_4.ctl{4D5EB7BE-49CE-431C-A615-05712C219E59}resource=/Chassis Temperature;0;ReadMethodType=i16{4EDB0823-40AB-4A6D-AD9B-E764EC043EF0}resource=/crio_Mod8/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{513687C5-A417-4D2E-B580-F4597FF57ACB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod6/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{5A00A6B3-88B9-44BF-9760-A49511D970C6}resource=/crio_Mod8/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{5B6DEAA4-AA4A-40B4-81FE-1AA2091615DD}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod6/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{5B7D3673-2523-415F-9047-2B546FC5E93B}resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_4.ctl{5CD3D22E-4692-443B-BCCF-85BD9425230E}resource=/crio_Mod8/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{5DD3540B-F3DA-406E-A071-4AA2C404AB57}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{620375AF-D3CE-45C7-87DF-73182C0BC650}resource=/crio_Mod3/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{63F14E8F-2889-43D0-97A9-5970C1782CB9}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9402,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kInitialLineDirection="0000",cRIOModule.RsiAttributes=[crioConfig.End]{668F9377-2A95-495B-A487-DAB9D880FFB0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod6/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{66AE4A6A-478B-4A77-8137-CDFA37D2A95F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{6964B14F-C237-45F0-A224-4C938FE4C198}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{7E7F20BB-273E-4620-A303-C034A5279F68}resource=/crio_Mod2/Stop;0;WriteMethodType=bool{872F3DCC-E29F-4FB4-974F-5A704A830F4F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{886250B3-8508-4DE0-88DD-41094E7A2039}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{8D0D23BC-F1C0-4595-B433-B31D22963289}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{9F5F6065-7ED9-4011-AA6A-AF4BB75E7992}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 6,crio.Type=NI 9402,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kInitialLineDirection="0000",cRIOModule.RsiAttributes=[crioConfig.End]{A0318597-AD95-484F-A9FA-9D23AF8A18D0}resource=/crio_Mod3/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{A08087B7-AE79-4729-BAF5-26A041C12678}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{A1C6780D-89C0-43FB-857B-6405CCCF9390}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{A9F2DE93-46FF-41F6-B89C-2CF2FC2BD2F8}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{AF1C3126-B76F-49FB-9470-65F54AC8AF64}"ControlLogic=0;NumberOfElements=131071;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO_V1;DataType=1000800000000001003C005F0351003A000000190001000100000019FFFFFFFFFFFFFFFF000000390000001801FFFFFFFFFFFFFF00000001FFFFFFE0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{AF5F99FD-4B2C-4D7D-9CB7-11AE2A1BF59C}resource=/crio_Mod3/Start;0;WriteMethodType=bool{B00AFBFB-9EB3-43D7-BF2E-D905805B112A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{B2B74365-F715-4C79-8DCB-A6256AE57D2F}resource=/crio_Mod3/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{B53F7B61-DF83-4563-855D-A291DB3C41B9}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{B5876B01-D758-4C49-8AE6-DBDBF7DC4FC8}resource=/crio_Mod1/Stop;0;WriteMethodType=bool{BBA9C840-F3BC-4BF8-B88F-33EA30FFB9BD}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{C5FA06DC-21B7-4E6F-B912-5E540314CB0A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9239,cRIOModule.ClockSource=0,cRIOModule.DataRate=1,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=0,cRIOModule.RsiAttributes=,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=false[crioConfig.End]{C772F0B8-F750-4D4A-9EC4-2CD033818F38}resource=/crio_Mod3/Stop;0;WriteMethodType=bool{C784925A-633E-4E44-96CD-A4579F48481F}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{C790731D-B18E-4157-9B84-482B86165914}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{C8C76AE0-235B-490D-8322-6CF4A34DC266}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{CBCDA5E4-0DFE-4A22-9AC3-5C8A3C373EDD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{CCC177DD-B41C-4866-9A22-57B081DDB6BA}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{D3AE7263-7A35-4A72-BA3E-BCBD1DFE2A69}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{E200FEDA-DCBE-4C46-8FBC-3F956DC6DB2D}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9260,cRIOModule.ClockSource=0,cRIOModule.DataRate=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0[crioConfig.End]{E386A898-BC38-400C-B5A7-5BB7B161B927}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{EBE897F9-60E4-410D-A88B-575D87C277DD}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{F37A2600-6385-495A-87B4-90837CBC5296}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod6/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{F8725A57-F903-4A40-A472-F87C22576DF7}resource=/Scan Clock;0;ReadMethodType=bool{FD025205-585D-4ACE-8E9D-B2EE7BF2F7FA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{FE642B94-BB25-49CD-95C8-6B21BC402307}resource=/crio_Mod1/Start;0;WriteMethodType=bool{FF18CAF5-7A7F-4F7C-8DE8-C2F3B8BC3AD0}resource=/crio_Mod8/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{FF1F29BA-2B56-4F25-8F2C-18C5960DD691}resource=/crio_Mod2/Start;0;WriteMethodType=boolcRIO-9039/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9039FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9039/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9039FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]FIFO_V1"ControlLogic=0;NumberOfElements=131071;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO_V1;DataType=1000800000000001003C005F0351003A000000190001000100000019FFFFFFFFFFFFFFFF000000390000001801FFFFFFFFFFFFFF00000001FFFFFFE0000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1/AO0resource=/crio_Mod1/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_4.ctlMod1/AO1resource=/crio_Mod1/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_4.ctlMod1/Startresource=/crio_Mod1/Start;0;WriteMethodType=boolMod1/Stopresource=/crio_Mod1/Stop;0;WriteMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9260,cRIOModule.ClockSource=0,cRIOModule.DataRate=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0[crioConfig.End]Mod2/AO0resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_4.ctlMod2/AO1resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_4.ctlMod2/Startresource=/crio_Mod2/Start;0;WriteMethodType=boolMod2/Stopresource=/crio_Mod2/Stop;0;WriteMethodType=boolMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9260,cRIOModule.ClockSource=0,cRIOModule.DataRate=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0[crioConfig.End]Mod3/AI0resource=/crio_Mod3/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod3/AI1resource=/crio_Mod3/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod3/AI2resource=/crio_Mod3/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod3/AI3resource=/crio_Mod3/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod3/Startresource=/crio_Mod3/Start;0;WriteMethodType=boolMod3/Stopresource=/crio_Mod3/Stop;0;WriteMethodType=boolMod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9239,cRIOModule.ClockSource=0,cRIOModule.DataRate=1,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.ExcitationVoltage=1,cRIOModule.ExternalClockSource=,cRIOModule.ExtTimeBaseType=,cRIOModule.HalfBridgeEnable=0,cRIOModule.InputConfiguration=0,cRIOModule.RsiAttributes=,cRIOModule.SourceModule=false,cRIOModule.SubPanVisitedVersion=0,cRIOModule.TEDSSupport=false[crioConfig.End]Mod4/DIO0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod4/DIO3:0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Mod4/DIO3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod4/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9402,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kInitialLineDirection="0000",cRIOModule.RsiAttributes=[crioConfig.End]Mod5/DIO0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO3:0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Mod5/DIO3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9402,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kInitialLineDirection="0000",cRIOModule.RsiAttributes=[crioConfig.End]Mod6/DIO0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod6/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod6/DIO1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod6/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod6/DIO2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod6/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod6/DIO3:0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod6/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Mod6/DIO3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod6/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod6[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 6,crio.Type=NI 9402,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kInitialLineDirection="0000",cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod7/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod7/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod7/DIO3:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Mod7/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod7/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod7/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod7/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod7/DIO7:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod7/DIO7:4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8Mod7/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod7/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/AO0resource=/crio_Mod8/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod8/AO1resource=/crio_Mod8/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod8/AO2resource=/crio_Mod8/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod8/AO3resource=/crio_Mod8/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool</Property>
 					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">D:\Velociprobe MIMO Controller\Velociprobe-MIMO\FPGA Bitfiles\VP_NP_FPGA_Full</Property>
@@ -1703,7 +1719,7 @@ DirectoryIndex index.htm
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str">Creating primitive state-machine for FPGA</Property>
 						<Property Name="BuildSpecName" Type="Str">VP_NanoPositioner_FPGA_Full</Property>
-						<Property Name="Comp.BitfileName" Type="Str">VP_NP_FPGA_Full</Property>
+						<Property Name="Comp.BitfileName" Type="Str">VP_NP_FPGA_Full.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -1729,7 +1745,7 @@ DirectoryIndex index.htm
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
 						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/Velociprobe MIMO Controller/Velociprobe-MIMO/FPGA Bitfiles/VP_NP_FPGA_Full</Property>
 						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/VP_NP_FPGA_Full</Property>
-						<Property Name="ProjectPath" Type="Path">/D/Velociprobe MIMO Controller/Velociprobe-MIMO/Velociprobe_MIMO_Control_3.lvproj</Property>
+						<Property Name="ProjectPath" Type="Path">/D/Velociprobe MIMO Controller/Velociprobe-MIMO/Velociprobe_cRIO.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
 						<Property Name="SupportDownload" Type="Bool">true</Property>
@@ -1820,7 +1836,7 @@ DirectoryIndex index.htm
 		<Item Name="VP_RT_base.vi" Type="VI" URL="../RT VIs/VP_RT_base.vi"/>
 		<Item Name="VP_RT_dual.vi" Type="VI" URL="../RT VIs/VP_RT_dual.vi"/>
 		<Item Name="VP_FP_dual.html" Type="Document" URL="../www/VP_FP_dual.html"/>
-		<Item Name="VP_RT_multiscan.vi" Type="VI" URL="../RT VIs/VP_RT_multiscan.vi"/>
+		<Item Name="VP_FP_base.html" Type="Document" URL="../www/VP_FP_base.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -1872,7 +1888,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EECDF2D9-05BB-4075-8201-0F5F5BF4B926}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
+				<Property Name="Bld_version.build" Type="Int">65</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -1885,20 +1901,62 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].destName" Type="Str">www</Property>
 				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[3].destName" Type="Str">controller</Property>
-				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controller</Property>
+				<Property Name="Destination[3].destName" Type="Str">controller files</Property>
+				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controllers</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{618F3894-6E63-453F-ACB8-483B10722EE9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{54CB5CE6-A2F4-423A-BA7E-C322E050083D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy2.mat</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy1.mat</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy2.mat</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz1.mat</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz2.mat</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz1.mat</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_base.html</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff2.mat</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx1.mat</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx2.mat</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx1.mat</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx2.mat</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy1.mat</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
 				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-Base</Property>
 				<Property Name="TgtF_internalName" Type="Str">Velociprobe-Base</Property>
@@ -1924,6 +1982,103 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C709ECD-3791-4EBA-B053-0A22436A1911}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">68</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].destName" Type="Str">www</Property>
+				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[3].destName" Type="Str">controller files</Property>
+				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controllers</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{54CB5CE6-A2F4-423A-BA7E-C322E050083D}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy1.mat</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy2.mat</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy1.mat</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy2.mat</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz1.mat</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz2.mat</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz1.mat</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_dual.html</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff2.mat</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx1.mat</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx2.mat</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx1.mat</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx2.mat</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">18</Property>
+				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-Full</Property>
+				<Property Name="TgtF_internalName" Type="Str">Velociprobe-Full</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 ANL</Property>
+				<Property Name="TgtF_productName" Type="Str">Velociprobe-Full</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{172E059B-AB92-4462-8D38-75C7F8CB04F2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
+			</Item>
+			<Item Name="Velociprobe-MultiScan" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{8E192ED9-3569-42C2-B4CE-B1AAB77D9898}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{97053905-D1C2-4611-A8DA-4C415947A100}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.ANL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D0DC298E-87B0-4321-9FF8-4C784153564F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Velociprobe-MultiScan</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/Velociprobe-MultiScan</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{CD651399-0377-45DB-B444-E84B4CEE2525}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Bld_version.build" Type="Int">66</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
@@ -1937,75 +2092,68 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].destName" Type="Str">www</Property>
 				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[3].destName" Type="Str">controller</Property>
-				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controller</Property>
+				<Property Name="Destination[3].destName" Type="Str">controller files</Property>
+				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controllers</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{618F3894-6E63-453F-ACB8-483B10722EE9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{54CB5CE6-A2F4-423A-BA7E-C322E050083D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy1.mat</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy2.mat</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy1.mat</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy2.mat</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz1.mat</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz2.mat</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz1.mat</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref"></Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_dual.html</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-Full</Property>
-				<Property Name="TgtF_internalName" Type="Str">Velociprobe-Full</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 ANL</Property>
-				<Property Name="TgtF_productName" Type="Str">Velociprobe-Full</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{172E059B-AB92-4462-8D38-75C7F8CB04F2}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
-			</Item>
-			<Item Name="Velociprobe-MultiScan" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{6CC97C53-3391-4DA1-BD32-2D95DEEFC6E5}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{30772734-8EC4-4F6F-9642-8B89847DECFC}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.ANL.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{E33557A6-93BF-40C6-8A53-D4DDE74CCB8A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Velociprobe-MultiScan</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/Velociprobe-MultiScan</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{B709A396-2C5B-4EF0-B455-802811307BAF}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
-				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[2].destName" Type="Str">www</Property>
-				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[3].destName" Type="Str">controller</Property>
-				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controller</Property>
-				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{618F3894-6E63-453F-ACB8-483B10722EE9}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff2.mat</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx1.mat</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx2.mat</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx1.mat</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx2.mat</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">19</Property>
 				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-Full</Property>
 				<Property Name="TgtF_internalName" Type="Str">Velociprobe-Full</Property>
