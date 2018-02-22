@@ -10,12 +10,15 @@
 	<Property Name="varPersistentID:{170DCBE3-0E46-42EF-8FF5-7A16CC6AFA8B}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Main Loop Error</Property>
 	<Property Name="varPersistentID:{1D529166-11CE-4616-88D9-250CEBFC7A8E}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Base Filename</Property>
 	<Property Name="varPersistentID:{25443B6C-E09F-4D30-8CFF-1ED72C06D945}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trigger_Freq_Hz</Property>
+	<Property Name="varPersistentID:{292248C3-11ED-4740-8F3D-B73730FCE711}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPX_Readback</Property>
 	<Property Name="varPersistentID:{2D177B0E-329A-4A70-8EB8-130E220BA806}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scan_Type</Property>
 	<Property Name="varPersistentID:{303174A8-EA4A-4945-878B-031E023B6082}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:FPGA_State</Property>
+	<Property Name="varPersistentID:{324B0DCA-C054-4839-A8BF-637A7A1B878A}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPX_Command</Property>
 	<Property Name="varPersistentID:{3500A89E-62DE-472D-97B3-2E47DBC394E3}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Start_Scan</Property>
 	<Property Name="varPersistentID:{579BF611-4497-4628-951D-C4D72C8429E1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Readback Loop Error</Property>
 	<Property Name="varPersistentID:{652C573F-17B4-4108-9B20-80F96968CFD0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Execute_Command</Property>
 	<Property Name="varPersistentID:{771CEBFB-D8B2-4ACD-815D-05BB8EC34ECE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Command Loop Error</Property>
+	<Property Name="varPersistentID:{82AFBE78-482D-4B23-BE26-F4A405760BA4}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPY_Command</Property>
 	<Property Name="varPersistentID:{909B8FD4-D04C-4FD8-8AE0-8E289CEEA62D}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/New Command</Property>
 	<Property Name="varPersistentID:{9296C7B9-9CA4-447D-8AC9-8A8741AC7A2F}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Write Data</Property>
 	<Property Name="varPersistentID:{9B2BDE3D-0A6B-4D70-8739-E94B3FED7BA5}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scanning</Property>
@@ -29,10 +32,13 @@
 	<Property Name="varPersistentID:{D445E718-F372-4531-83A3-C074BD004F58}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Remote_Scan</Property>
 	<Property Name="varPersistentID:{D91DBBE3-CEED-4DAE-AF23-906E085C87A1}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Local_Lock</Property>
 	<Property Name="varPersistentID:{DC06C484-F4D1-4724-BA52-72B10A9B60CE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/System command</Property>
+	<Property Name="varPersistentID:{E1CC40B3-DEB7-457A-9396-BDA3FBD283FC}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPY_Readback</Property>
 	<Property Name="varPersistentID:{E38D46B2-C5A1-4DC5-A60D-E8FBDF4F21DF}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Start_nm</Property>
 	<Property Name="varPersistentID:{EB39AC6D-4DBC-44A4-98ED-C75D42DB4616}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_End_nm</Property>
+	<Property Name="varPersistentID:{F07EE1CD-EA6F-43C3-B54B-F6530B3C650E}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPZ_Readback</Property>
 	<Property Name="varPersistentID:{F9B7B7E1-427A-44B1-84C0-E951424CD391}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Step_Size_nm</Property>
 	<Property Name="varPersistentID:{FBA44DE5-1498-45AF-BD62-A538893FFBE0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_End_nm</Property>
+	<Property Name="varPersistentID:{FC2C7C6F-0545-4CC6-B027-F775678CCD15}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPZ_Command</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -1675,6 +1681,9 @@ DirectoryIndex index.htm
 						<Item Name="niFpgaDdsAccum.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/siggen/SquareWave/templates/niFpgaDdsAccum.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
+					<Item Name="Detector_Trigger_Control.ctl" Type="VI" URL="../FPGA VIs/Detector_Trigger_Control.ctl"/>
+					<Item Name="measure_loop_rate_FPGA.vi" Type="VI" URL="../FPGA VIs/measure_loop_rate_FPGA.vi"/>
+					<Item Name="Saw Wave Generator.vi" Type="VI" URL="../FPGA VIs/Saw Wave Generator.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Velociprobe_Nanopositioner_Control_FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -1795,7 +1804,7 @@ DirectoryIndex index.htm
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str">Creating primitive state-machine for FPGA with off-diagonal elements removed from controller. Also contains option of running fly or step scan</Property>
 						<Property Name="BuildSpecName" Type="Str">VP_NanoPositioner_FPGA_MultiScan</Property>
-						<Property Name="Comp.BitfileName" Type="Str">VP_NanoPositioner_FPGA_MultiScan.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">VP_NanoPositioner_FPGA_MultiScan.vbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -1837,6 +1846,9 @@ DirectoryIndex index.htm
 		<Item Name="VP_RT_dual.vi" Type="VI" URL="../RT VIs/VP_RT_dual.vi"/>
 		<Item Name="VP_FP_dual.html" Type="Document" URL="../www/VP_FP_dual.html"/>
 		<Item Name="VP_FP_base.html" Type="Document" URL="../www/VP_FP_base.html"/>
+		<Item Name="VP_RT_multiscan.vi" Type="VI" URL="../RT VIs/VP_RT_multiscan.vi"/>
+		<Item Name="VP_FP_multi.html" Type="Document" URL="../www/VP_FP_multi.html"/>
+		<Item Name="Local or Remote.ctl" Type="VI" URL="../RT VIs/Local or Remote.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -2079,7 +2091,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CD651399-0377-45DB-B444-E84B4CEE2525}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">66</Property>
+				<Property Name="Bld_version.build" Type="Int">69</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -2096,7 +2108,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controllers</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{54CB5CE6-A2F4-423A-BA7E-C322E050083D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E62355C8-D2C0-48B5-ABA6-AEC3A3B557F6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
@@ -2126,15 +2138,17 @@ DirectoryIndex index.htm
 				<Property Name="Source[17].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref"></Property>
+				<Property Name="Source[18].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_multiscan.vi</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_multi.html</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_dual.html</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
@@ -2153,7 +2167,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[9].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx2.mat</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">19</Property>
+				<Property Name="SourceCount" Type="Int">20</Property>
 				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-Full</Property>
 				<Property Name="TgtF_internalName" Type="Str">Velociprobe-Full</Property>
