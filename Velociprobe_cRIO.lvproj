@@ -8,6 +8,7 @@
 	<Property Name="varPersistentID:{15F5A9D9-738F-4495-8E98-6D9238F106D6}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trig_DutyCycle_Per</Property>
 	<Property Name="varPersistentID:{16D6CD42-9A4E-4878-BA80-E8590E727808}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Step_Size_nm</Property>
 	<Property Name="varPersistentID:{170DCBE3-0E46-42EF-8FF5-7A16CC6AFA8B}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Main Loop Error</Property>
+	<Property Name="varPersistentID:{18AA50CA-1410-47FB-B454-444402A41A89}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Data_Save_Trigger</Property>
 	<Property Name="varPersistentID:{1D529166-11CE-4616-88D9-250CEBFC7A8E}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Base Filename</Property>
 	<Property Name="varPersistentID:{23723755-88BA-4CD4-AC7F-827D44BF8DDC}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Center</Property>
 	<Property Name="varPersistentID:{25443B6C-E09F-4D30-8CFF-1ED72C06D945}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trigger_Freq_Hz</Property>
@@ -2006,19 +2007,6 @@ DirectoryIndex index.htm
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
-					<Item Name="Detector_Trigger_Control.ctl" Type="VI" URL="../FPGA VIs/Detector_Trigger_Control.ctl"/>
-					<Item Name="measure_loop_rate_FPGA.vi" Type="VI" URL="../FPGA VIs/measure_loop_rate_FPGA.vi"/>
-					<Item Name="Saw Wave Generator.vi" Type="VI" URL="../FPGA VIs/Saw Wave Generator.vi"/>
-					<Item Name="Scan type.ctl" Type="VI" URL="../RT VIs/Scan type.ctl"/>
-					<Item Name="Scan Geometry.ctl" Type="VI" URL="../FPGA VIs/Scan Geometry.ctl"/>
-					<Item Name="spiral radial direction.ctl" Type="VI" URL="../FPGA VIs/spiral radial direction.ctl"/>
-					<Item Name="spiral rotation direction.ctl" Type="VI" URL="../FPGA VIs/spiral rotation direction.ctl"/>
-					<Item Name="Inner Scan axis.ctl" Type="VI" URL="../FPGA VIs/Inner Scan axis.ctl"/>
-					<Item Name="Trajectory FGV states.ctl" Type="VI" URL="../FPGA VIs/Trajectory FGV states.ctl"/>
-					<Item Name="arch spiral FGV.vi" Type="VI" URL="../FPGA VIs/arch spiral FGV.vi"/>
-					<Item Name="grid spiral FGV.vi" Type="VI" URL="../FPGA VIs/grid spiral FGV.vi"/>
-					<Item Name="grid spiral direction.ctl" Type="VI" URL="../FPGA VIs/grid spiral direction.ctl"/>
-					<Item Name="snake FGV.vi" Type="VI" URL="../FPGA VIs/snake FGV.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Velociprobe_Nanopositioner_Control_FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -2219,7 +2207,7 @@ DirectoryIndex index.htm
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">16</Property>
+						<Property Name="Comp.Version.Build" Type="Int">17</Property>
 						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
@@ -2262,6 +2250,8 @@ DirectoryIndex index.htm
 		<Item Name="VP_FP_multi.html" Type="Document" URL="../www/VP_FP_multi.html"/>
 		<Item Name="VP_RT_MultiScan.vi" Type="VI" URL="../RT VIs/VP_RT_MultiScan.vi"/>
 		<Item Name="VP_RT_MultiTraj.vi" Type="VI" URL="../RT VIs/VP_RT_MultiTraj.vi"/>
+		<Item Name="Plot options enum.ctl" Type="VI" URL="../RT VIs/Plot options enum.ctl"/>
+		<Item Name="VP_FP_MultiTraj.html" Type="Document" URL="../www/VP_FP_MultiTraj.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -2611,7 +2601,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6EE0E36D-C146-4EAF-AE61-11629BCB1741}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">102</Property>
+				<Property Name="Bld_version.build" Type="Int">105</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -2628,7 +2618,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controllers</Property>
 				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C57D6B84-28E9-4E2B-93CB-05EF84C0A734}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D2E506F6-9A22-44F5-A896-474C2DB65DEF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
@@ -2663,10 +2653,12 @@ DirectoryIndex index.htm
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[19].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_multi.html</Property>
-				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_MultiTraj.html</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_dual.html</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
@@ -2687,7 +2679,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[9].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx2.mat</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="SourceCount" Type="Int">21</Property>
 				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-Full</Property>
 				<Property Name="TgtF_internalName" Type="Str">Velociprobe-Full</Property>
