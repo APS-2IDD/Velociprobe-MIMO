@@ -24,6 +24,7 @@
 	<Property Name="varPersistentID:{6E407493-460E-4E62-8474-1E20EDC7CACE}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Center</Property>
 	<Property Name="varPersistentID:{771CEBFB-D8B2-4ACD-815D-05BB8EC34ECE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Command Loop Error</Property>
 	<Property Name="varPersistentID:{82AFBE78-482D-4B23-BE26-F4A405760BA4}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPY_Command</Property>
+	<Property Name="varPersistentID:{88D4F77A-BF00-4F19-9B38-154FEFEF2FFA}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:System_Loop_Type</Property>
 	<Property Name="varPersistentID:{909B8FD4-D04C-4FD8-8AE0-8E289CEEA62D}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/New Command</Property>
 	<Property Name="varPersistentID:{9296C7B9-9CA4-447D-8AC9-8A8741AC7A2F}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Write Data</Property>
 	<Property Name="varPersistentID:{9ADF1DCE-79B3-4962-A6EB-AF0584F3EFD3}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Spiral_Step</Property>
@@ -2601,7 +2602,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6EE0E36D-C146-4EAF-AE61-11629BCB1741}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">105</Property>
+				<Property Name="Bld_version.build" Type="Int">106</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
