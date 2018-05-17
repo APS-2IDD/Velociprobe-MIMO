@@ -3,7 +3,6 @@
 	<Property Name="varPersistentID:{00E67AA3-76FC-49D7-BC23-AAC9BA9DC2E3}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Controller_Type</Property>
 	<Property Name="varPersistentID:{0232476F-F4C8-430C-A7DB-C1250A6294A4}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:cRIO_Command</Property>
 	<Property Name="varPersistentID:{07806F75-83B8-41FF-B17C-107897E443F0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Start_nm</Property>
-	<Property Name="varPersistentID:{0B3660B3-F2CE-4101-A5AF-BBA9DB6E083E}" Type="Ref">/RT CompactRIO Target/Dependencies/Untitled Library 1/Double</Property>
 	<Property Name="varPersistentID:{0B390427-CF17-4F64-93C2-6C75587D6E4A}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:cRIO_Dir</Property>
 	<Property Name="varPersistentID:{0D258439-B8E2-4924-8E2C-30664337A1B8}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Max radius</Property>
 	<Property Name="varPersistentID:{100C84A1-AC5D-48C6-9115-6F22DD5623C7}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Base_Filename</Property>
@@ -25,6 +24,7 @@
 	<Property Name="varPersistentID:{324B0DCA-C054-4839-A8BF-637A7A1B878A}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPX_Command</Property>
 	<Property Name="varPersistentID:{3500A89E-62DE-472D-97B3-2E47DBC394E3}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Start_Scan</Property>
 	<Property Name="varPersistentID:{450F678C-D9A8-4C5C-AF5B-1FF0B0EF05FC}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Radial direction</Property>
+	<Property Name="varPersistentID:{4E921C28-1492-4652-B86C-D343FC848997}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Stop System</Property>
 	<Property Name="varPersistentID:{4FF7E791-9673-4C41-9FBD-1DB9B4BC0420}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Max_Radius</Property>
 	<Property Name="varPersistentID:{537C0E9D-16E9-45F7-979E-55257A220252}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Y Ramp End (nm)</Property>
 	<Property Name="varPersistentID:{579BF611-4497-4628-951D-C4D72C8429E1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Readback Loop Error</Property>
@@ -92,7 +92,13 @@
 		<Item Name="bits" Type="Folder">
 			<Item Name="stubs.vi" Type="VI" URL="../bits/stubs.vi"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Error_to_String_Converter.vi" Type="VI" URL="../Host VIs/Error_to_String_Converter.vi"/>
+		<Item Name="VP_Host_ModTrans.vi" Type="VI" URL="../Host VIs/VP_Host_ModTrans.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
@@ -2355,6 +2361,7 @@ DirectoryIndex index.htm
 		<Item Name="Plot options enum.ctl" Type="VI" URL="../RT VIs/Plot options enum.ctl"/>
 		<Item Name="VP_FP_MultiTraj.html" Type="Document" URL="../www/VP_FP_MultiTraj.html"/>
 		<Item Name="VP_RT_ModTrans.vi" Type="VI" URL="../RT VIs/VP_RT_ModTrans.vi"/>
+		<Item Name="ModTrans_Startup.vi" Type="VI" URL="../RT VIs/ModTrans_Startup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -2390,7 +2397,6 @@ DirectoryIndex index.htm
 			<Item Name="VP_NanoPositioner_FPGA_MultiScan.lvbitx" Type="Document" URL="../FPGA Bitfiles/VP_NanoPositioner_FPGA_MultiScan.lvbitx"/>
 			<Item Name="VP_NanoPositioner_FPGA_MultiTraj.lvbitx" Type="Document" URL="../FPGA Bitfiles/VP_NanoPositioner_FPGA_MultiTraj.lvbitx"/>
 			<Item Name="VP_NanoPositioner_FPGA_ModTrans.lvbitx" Type="Document" URL="../FPGA Bitfiles/VP_NanoPositioner_FPGA_ModTrans.lvbitx"/>
-			<Item Name="Untitled Library 1" Type="Library"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Velociprobe-Base" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
