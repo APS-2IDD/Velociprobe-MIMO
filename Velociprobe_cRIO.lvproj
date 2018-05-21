@@ -97,9 +97,13 @@
 		<Item Name="Host Interloop communications.lvlib" Type="Library" URL="../Host VIs/Host Interloop communications.lvlib"/>
 		<Item Name="UI states.ctl" Type="VI" URL="../Host VIs/UI states.ctl"/>
 		<Item Name="VP_Host_ModTrans.vi" Type="VI" URL="../Host VIs/VP_Host_ModTrans.vi"/>
+		<Item Name="VP_Host_Test.vi" Type="VI" URL="../Host VIs/VP_Host_Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -121,16 +125,26 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -2098,19 +2112,6 @@ DirectoryIndex index.htm
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
-					<Item Name="Detector_Trigger_Control.ctl" Type="VI" URL="../FPGA VIs/Detector_Trigger_Control.ctl"/>
-					<Item Name="measure_loop_rate_FPGA.vi" Type="VI" URL="../FPGA VIs/measure_loop_rate_FPGA.vi"/>
-					<Item Name="Saw Wave Generator.vi" Type="VI" URL="../FPGA VIs/Saw Wave Generator.vi"/>
-					<Item Name="Scan type.ctl" Type="VI" URL="../RT VIs/Scan type.ctl"/>
-					<Item Name="Scan Geometry.ctl" Type="VI" URL="../FPGA VIs/Scan Geometry.ctl"/>
-					<Item Name="spiral radial direction.ctl" Type="VI" URL="../FPGA VIs/spiral radial direction.ctl"/>
-					<Item Name="spiral rotation direction.ctl" Type="VI" URL="../FPGA VIs/spiral rotation direction.ctl"/>
-					<Item Name="Inner Scan axis.ctl" Type="VI" URL="../FPGA VIs/Inner Scan axis.ctl"/>
-					<Item Name="Trajectory FGV states.ctl" Type="VI" URL="../FPGA VIs/Trajectory FGV states.ctl"/>
-					<Item Name="arch spiral FGV.vi" Type="VI" URL="../FPGA VIs/arch spiral FGV.vi"/>
-					<Item Name="grid spiral FGV.vi" Type="VI" URL="../FPGA VIs/grid spiral FGV.vi"/>
-					<Item Name="grid spiral direction.ctl" Type="VI" URL="../FPGA VIs/grid spiral direction.ctl"/>
-					<Item Name="snake FGV.vi" Type="VI" URL="../FPGA VIs/snake FGV.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Velociprobe_Nanopositioner_Control_FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -2311,7 +2312,7 @@ DirectoryIndex index.htm
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">19</Property>
+						<Property Name="Comp.Version.Build" Type="Int">20</Property>
 						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
 						<Property Name="Comp.Version.Major" Type="Int">1</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
@@ -2396,6 +2397,7 @@ DirectoryIndex index.htm
 		<Item Name="VP_FP_MultiTraj.html" Type="Document" URL="../www/VP_FP_MultiTraj.html"/>
 		<Item Name="VP_RT_ModTrans.vi" Type="VI" URL="../RT VIs/VP_RT_ModTrans.vi"/>
 		<Item Name="ModTrans_Startup.vi" Type="VI" URL="../RT VIs/ModTrans_Startup.vi"/>
+		<Item Name="VP_FP_ModTrans.html" Type="Document" URL="../www/VP_FP_ModTrans.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -2825,6 +2827,115 @@ DirectoryIndex index.htm
 				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx2.mat</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">21</Property>
+				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-Full</Property>
+				<Property Name="TgtF_internalName" Type="Str">Velociprobe-Full</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 ANL</Property>
+				<Property Name="TgtF_productName" Type="Str">Velociprobe-Full</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{172E059B-AB92-4462-8D38-75C7F8CB04F2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
+			</Item>
+			<Item Name="Velociprobe-ModTrans" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{890E555A-AFC2-4BBD-9392-50F687A587DC}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{3CF41A7D-C782-47E7-8DAC-D2FD7530F792}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.ANL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{29FC2F52-13ED-41DE-98F7-5B16D2F70AFB}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Velociprobe-ModTrans</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/Velociprobe-ModTrans</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{15D605DD-AAF2-428E-93A7-C9C7A4B5E515}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">110</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].destName" Type="Str">www</Property>
+				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[3].destName" Type="Str">controller files</Property>
+				<Property Name="Destination[3].path" Type="Path">/home/lvuser/natinst/controllers</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B1393263-1B85-4BF7-8D97-9E9BFB5B129B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy1.mat</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy2.mat</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy1.mat</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_trial_1_Gyy_matched_dow_8ord_mVpnm_cd8a3_AvTio9_Y5nm_500pm_all_40us_soscof_yy2.mat</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz1.mat</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz2.mat</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz1.mat</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_MultiTraj.vi</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_multi.html</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_MultiTraj.html</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_ModTrans.vi</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_ModTrans.html</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_dual.html</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff2.mat</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx1.mat</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_1_Gxx_matched_dow_16ord_mVpnm_cd8a3_AvTio9_X5nm_500pm_all_40us_soscof_xx2.mat</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx1.mat</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kxx_pid_2_Gxx_tustin_2ord_mVpnm_cd8a3_soscof_xx2.mat</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">23</Property>
 				<Property Name="TgtF_companyName" Type="Str">ANL</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe-Full</Property>
 				<Property Name="TgtF_internalName" Type="Str">Velociprobe-Full</Property>
