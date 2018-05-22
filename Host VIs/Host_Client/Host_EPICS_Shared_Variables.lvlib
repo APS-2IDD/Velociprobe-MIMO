@@ -17,7 +17,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:LabView:ZPX_Command\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:LabView:ZPX_Readback" Type="Variable">
@@ -33,7 +33,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:LabView:ZPX_Readback\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:LabView:ZPY_Command" Type="Variable">
@@ -49,7 +49,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:LabView:ZPY_Command\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:LabView:ZPY_Readback" Type="Variable">
@@ -65,7 +65,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:LabView:ZPY_Readback\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:LabView:ZPZ_Command" Type="Variable">
@@ -81,7 +81,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:LabView:ZPZ_Command\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:LabView:ZPZ_Readback" Type="Variable">
@@ -97,7 +97,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:LabView:ZPZ_Readback\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Base_Filename" Type="Variable">
@@ -112,7 +112,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_MIMO_Control_3.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Base_Filename\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Controller_Type" Type="Variable">
@@ -128,7 +128,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Controller_Type\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:cRIO_Command" Type="Variable">
@@ -144,7 +144,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:cRIO_Command\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:cRIO_Dir" Type="Variable">
@@ -159,7 +159,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:cRIO_Dir\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Data_DutyCycle" Type="Variable">
@@ -175,7 +175,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Data_DutyCycle\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Data_Freq_Hz" Type="Variable">
@@ -184,14 +184,14 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">True</Property>
-		<Property Name="Network:ProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Data_Freq_Hz\VAL</Property>
+		<Property Name="Network:ProjectPath" Type="Str">My Computer\Host_EPICS_Client.lvlib\EPICS Client1\2iddVELO:VP:Data_Freq_Hz\VAL</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">My Computer\Host_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Data_Freq_Hz\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Data_Save_Trigger" Type="Variable">
@@ -207,7 +207,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Data_Save_Trigger\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Execute_Command" Type="Variable">
@@ -223,7 +223,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Execute_Command\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Fly_Scan" Type="Variable">
@@ -238,7 +238,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_MIMO_Control_3.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Fly_Scan\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:FPGA_State" Type="Variable">
@@ -254,7 +254,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:FPGA_State\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Inner_Scan_Axis" Type="Variable">
@@ -272,7 +272,7 @@
 		<Property Name="typedefName1" Type="Str">Inner Scan axis.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../../FPGA VIs/Inner Scan axis.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Inner_Scan_Axis\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Last_Filename" Type="Variable">
@@ -287,7 +287,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_MIMO_Control_3.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Last_Filename\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Local_Lock" Type="Variable">
@@ -300,7 +300,7 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Local_Lock\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Max_Radius" Type="Variable">
@@ -313,7 +313,7 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Max_Radius\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Radial_Direction" Type="Variable">
@@ -331,7 +331,7 @@
 		<Property Name="typedefName1" Type="Str">spiral radial direction.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../../FPGA VIs/spiral radial direction.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Radial_Direction\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Remote_Scan" Type="Variable">
@@ -344,7 +344,7 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Remote_Scan\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Rotation_Direction" Type="Variable">
@@ -362,7 +362,7 @@
 		<Property Name="typedefName1" Type="Str">spiral rotation direction.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../../FPGA VIs/spiral rotation direction.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Rotation_Direction\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:RT_State" Type="Variable">
@@ -378,7 +378,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:RT_State\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Scan_Trajectory" Type="Variable">
@@ -396,7 +396,7 @@
 		<Property Name="typedefName1" Type="Str">Scan Geometry.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../../FPGA VIs/Scan Geometry.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Scan_Trajectory\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Scan_Type" Type="Variable">
@@ -413,7 +413,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"5!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Scan_Type\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Scanning" Type="Variable">
@@ -428,7 +428,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Scanning\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Spiral_Step" Type="Variable">
@@ -441,7 +441,7 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Spiral_Step\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Start_Scan" Type="Variable">
@@ -456,7 +456,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_MIMO_Control_3.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Start_Scan\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:System_Loop_Type" Type="Variable">
@@ -472,7 +472,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"5!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:System_Loop_Type\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Traj_Freq" Type="Variable">
@@ -488,7 +488,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Traj_Freq\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Trig_DutyCycle_Per" Type="Variable">
@@ -544,7 +544,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:X_Center\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:X_End_nm" Type="Variable">
@@ -601,7 +601,7 @@
 		<Property Name="Path" Type="Str">/Velociprobe_cRIO.lvproj/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1</Property>
+		<Property Name="varSourceProjectPath" Type="Str">RT CompactRIO Target\RT_EPICS_Client.lvlib\EPICS Client1\</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str">2iddVELO:VP:Y_Center\VAL</Property>
 	</Item>
 	<Item Name="2iddVELO:VP:Y_End_nm" Type="Variable">
