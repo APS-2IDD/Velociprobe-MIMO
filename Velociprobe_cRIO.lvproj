@@ -26,6 +26,7 @@
 	<Property Name="varPersistentID:{2520EF8A-B880-46EF-B021-5E4FE3CA1543}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPZ_Command</Property>
 	<Property Name="varPersistentID:{25443B6C-E09F-4D30-8CFF-1ED72C06D945}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trigger_Freq_Hz</Property>
 	<Property Name="varPersistentID:{25B53D88-9FA0-4BF8-85ED-E1B026DFA5B5}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPY_Command</Property>
+	<Property Name="varPersistentID:{276DA4F2-F844-4E69-88C6-AEEAC347CB41}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Error stream writer error</Property>
 	<Property Name="varPersistentID:{2872642F-3794-499D-BF3B-1F2E9DD9CA12}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPZ_Readback</Property>
 	<Property Name="varPersistentID:{292248C3-11ED-4740-8F3D-B73730FCE711}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPX_Readback</Property>
 	<Property Name="varPersistentID:{2D177B0E-329A-4A70-8EB8-130E220BA806}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scan_Type</Property>
@@ -39,6 +40,7 @@
 	<Property Name="varPersistentID:{43ABDE9B-BCD1-4672-8462-4504D127C504}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Start_Scan</Property>
 	<Property Name="varPersistentID:{44DDC30A-2595-4CC3-88E1-63A20F287E80}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scan_Trajectory</Property>
 	<Property Name="varPersistentID:{450F678C-D9A8-4C5C-AF5B-1FF0B0EF05FC}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Radial direction</Property>
+	<Property Name="varPersistentID:{48354A37-C628-4A62-B925-2193FB13F9EB}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Data writer loop</Property>
 	<Property Name="varPersistentID:{4E921C28-1492-4652-B86C-D343FC848997}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Stop System</Property>
 	<Property Name="varPersistentID:{4FF7E791-9673-4C41-9FBD-1DB9B4BC0420}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Max_Radius</Property>
 	<Property Name="varPersistentID:{537C0E9D-16E9-45F7-979E-55257A220252}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Y Ramp End (nm)</Property>
@@ -54,6 +56,7 @@
 	<Property Name="varPersistentID:{6E407493-460E-4E62-8474-1E20EDC7CACE}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Center</Property>
 	<Property Name="varPersistentID:{70EEC0F0-9B40-4778-95C2-820C9EDEE047}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Execute_Command</Property>
 	<Property Name="varPersistentID:{771CEBFB-D8B2-4ACD-815D-05BB8EC34ECE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Command Loop Error</Property>
+	<Property Name="varPersistentID:{7876B528-445D-4969-B1A3-19BA3C191C82}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Data stream writer error</Property>
 	<Property Name="varPersistentID:{79F6306E-AD02-41C0-BADF-05AFD421D4A0}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Z Reference Amplitude (nm)</Property>
 	<Property Name="varPersistentID:{82AFBE78-482D-4B23-BE26-F4A405760BA4}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPY_Command</Property>
 	<Property Name="varPersistentID:{88D4F77A-BF00-4F19-9B38-154FEFEF2FFA}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:System_Loop_Type</Property>
@@ -186,9 +189,12 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Data stream reader global.vi" Type="VI" URL="../Host VIs/Data stream reader global.vi"/>
+			<Item Name="Error stream reader global.vi" Type="VI" URL="../Host VIs/Error stream reader global.vi"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Stream SM states.ctl" Type="VI" URL="../RT VIs/Stream SM states.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -286,6 +292,8 @@ DirectoryIndex index.htm
 			<Item Name="Scan type.ctl" Type="VI" URL="../RT VIs/Scan type.ctl"/>
 			<Item Name="EPICS Command Control.ctl" Type="VI" URL="../RT VIs/EPICS Command Control.ctl"/>
 			<Item Name="Local or Remote.ctl" Type="VI" URL="../RT VIs/Local or Remote.ctl"/>
+			<Item Name="Stream SM states.ctl" Type="VI" URL="../RT VIs/Stream SM states.ctl"/>
+			<Item Name="Plot options enum.ctl" Type="VI" URL="../RT VIs/Plot options enum.ctl"/>
 		</Item>
 		<Item Name="sub-VIs" Type="Folder">
 			<Item Name="Convert Measured Rate.vi" Type="VI" URL="../RT VIs/Convert Measured Rate.vi"/>
@@ -296,6 +304,7 @@ DirectoryIndex index.htm
 			<Item Name="Create_Filename.vi" Type="VI" URL="../RT VIs/Create_Filename.vi"/>
 			<Item Name="Append_Array_2D.vi" Type="VI" URL="../RT VIs/Append_Array_2D.vi"/>
 			<Item Name="Append_Array_1D.vi" Type="VI" URL="../RT VIs/Append_Array_1D.vi"/>
+			<Item Name="ModTrans_Startup.vi" Type="VI" URL="../RT VIs/ModTrans_Startup.vi"/>
 		</Item>
 		<Item Name="controller files" Type="Folder">
 			<Item Name="allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat" Type="Document" URL="../controllers/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat"/>
@@ -312,6 +321,16 @@ DirectoryIndex index.htm
 			<Item Name="Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz2.mat" Type="Document" URL="../controllers/Kzz_1_Gzz_matched_dow_29ord_mVpnm_cd8a3_AvTio9_Z5nm_500pm_all_40us_soscof_zz2.mat"/>
 			<Item Name="Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz1.mat" Type="Document" URL="../controllers/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz1.mat"/>
 			<Item Name="Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat" Type="Document" URL="../controllers/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat"/>
+		</Item>
+		<Item Name="old RT VIs and html" Type="Folder">
+			<Item Name="VP_RT_base.vi" Type="VI" URL="../RT VIs/VP_RT_base.vi"/>
+			<Item Name="VP_RT_dual.vi" Type="VI" URL="../RT VIs/VP_RT_dual.vi"/>
+			<Item Name="VP_FP_dual.html" Type="Document" URL="../www/VP_FP_dual.html"/>
+			<Item Name="VP_FP_base.html" Type="Document" URL="../www/VP_FP_base.html"/>
+			<Item Name="VP_FP_multi.html" Type="Document" URL="../www/VP_FP_multi.html"/>
+			<Item Name="VP_RT_MultiScan.vi" Type="VI" URL="../RT VIs/VP_RT_MultiScan.vi"/>
+			<Item Name="VP_RT_MultiTraj.vi" Type="VI" URL="../RT VIs/VP_RT_MultiTraj.vi"/>
+			<Item Name="VP_FP_MultiTraj.html" Type="Document" URL="../www/VP_FP_MultiTraj.html"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -2155,6 +2174,19 @@ DirectoryIndex index.htm
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
+					<Item Name="Detector_Trigger_Control.ctl" Type="VI" URL="../FPGA VIs/Detector_Trigger_Control.ctl"/>
+					<Item Name="measure_loop_rate_FPGA.vi" Type="VI" URL="../FPGA VIs/measure_loop_rate_FPGA.vi"/>
+					<Item Name="Saw Wave Generator.vi" Type="VI" URL="../FPGA VIs/Saw Wave Generator.vi"/>
+					<Item Name="Scan type.ctl" Type="VI" URL="../RT VIs/Scan type.ctl"/>
+					<Item Name="Scan Geometry.ctl" Type="VI" URL="../FPGA VIs/Scan Geometry.ctl"/>
+					<Item Name="spiral radial direction.ctl" Type="VI" URL="../FPGA VIs/spiral radial direction.ctl"/>
+					<Item Name="spiral rotation direction.ctl" Type="VI" URL="../FPGA VIs/spiral rotation direction.ctl"/>
+					<Item Name="Inner Scan axis.ctl" Type="VI" URL="../FPGA VIs/Inner Scan axis.ctl"/>
+					<Item Name="Trajectory FGV states.ctl" Type="VI" URL="../FPGA VIs/Trajectory FGV states.ctl"/>
+					<Item Name="arch spiral FGV.vi" Type="VI" URL="../FPGA VIs/arch spiral FGV.vi"/>
+					<Item Name="grid spiral FGV.vi" Type="VI" URL="../FPGA VIs/grid spiral FGV.vi"/>
+					<Item Name="grid spiral direction.ctl" Type="VI" URL="../FPGA VIs/grid spiral direction.ctl"/>
+					<Item Name="snake FGV.vi" Type="VI" URL="../FPGA VIs/snake FGV.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Velociprobe_Nanopositioner_Control_FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -2429,18 +2461,10 @@ DirectoryIndex index.htm
 		<Item Name="Interloop communication.lvlib" Type="Library" URL="../Interloop communication.lvlib"/>
 		<Item Name="RT_EPICS_Client.lvlib" Type="Library" URL="../RT VIs/RT_Client/RT_EPICS_Client.lvlib"/>
 		<Item Name="RT_EPICS_Shared_Variables.lvlib" Type="Library" URL="../RT VIs/RT_Client/RT_EPICS_Shared_Variables.lvlib"/>
-		<Item Name="VP_RT_base.vi" Type="VI" URL="../RT VIs/VP_RT_base.vi"/>
-		<Item Name="VP_RT_dual.vi" Type="VI" URL="../RT VIs/VP_RT_dual.vi"/>
-		<Item Name="VP_FP_dual.html" Type="Document" URL="../www/VP_FP_dual.html"/>
-		<Item Name="VP_FP_base.html" Type="Document" URL="../www/VP_FP_base.html"/>
-		<Item Name="VP_FP_multi.html" Type="Document" URL="../www/VP_FP_multi.html"/>
-		<Item Name="VP_RT_MultiScan.vi" Type="VI" URL="../RT VIs/VP_RT_MultiScan.vi"/>
-		<Item Name="VP_RT_MultiTraj.vi" Type="VI" URL="../RT VIs/VP_RT_MultiTraj.vi"/>
-		<Item Name="Plot options enum.ctl" Type="VI" URL="../RT VIs/Plot options enum.ctl"/>
-		<Item Name="VP_FP_MultiTraj.html" Type="Document" URL="../www/VP_FP_MultiTraj.html"/>
 		<Item Name="VP_RT_ModTrans.vi" Type="VI" URL="../RT VIs/VP_RT_ModTrans.vi"/>
-		<Item Name="ModTrans_Startup.vi" Type="VI" URL="../RT VIs/ModTrans_Startup.vi"/>
 		<Item Name="VP_FP_ModTrans.html" Type="Document" URL="../www/VP_FP_ModTrans.html"/>
+		<Item Name="Data stream writer.vi" Type="VI" URL="../RT VIs/Data stream writer.vi"/>
+		<Item Name="Error stream writer.vi" Type="VI" URL="../RT VIs/Error stream writer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -2515,7 +2539,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[0].itemID" Type="Str">{54CB5CE6-A2F4-423A-BA7E-C322E050083D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_base.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
@@ -2540,7 +2564,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[16].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_base.html</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_FP_base.html</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat</Property>
@@ -2609,7 +2633,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[0].itemID" Type="Str">{54CB5CE6-A2F4-423A-BA7E-C322E050083D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_base.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy1.mat</Property>
@@ -2636,11 +2660,11 @@ DirectoryIndex index.htm
 				<Property Name="Source[17].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_dual.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_dual.html</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_FP_dual.html</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat</Property>
@@ -2706,7 +2730,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[0].itemID" Type="Str">{C57D6B84-28E9-4E2B-93CB-05EF84C0A734}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_base.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy1.mat</Property>
@@ -2733,20 +2757,20 @@ DirectoryIndex index.htm
 				<Property Name="Source[17].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_MultiTraj.vi</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_MultiTraj.vi</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_multi.html</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_FP_multi.html</Property>
 				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_dual.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_MultiScan.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_MultiScan.vi</Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_dual.html</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_FP_dual.html</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
@@ -2811,7 +2835,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[0].itemID" Type="Str">{D2E506F6-9A22-44F5-A896-474C2DB65DEF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_base.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy1.mat</Property>
@@ -2838,19 +2862,19 @@ DirectoryIndex index.htm
 				<Property Name="Source[17].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_MultiTraj.vi</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_MultiTraj.vi</Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_multi.html</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_FP_multi.html</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_dual.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_MultiTraj.html</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_FP_MultiTraj.html</Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_dual.html</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_FP_dual.html</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
@@ -2895,7 +2919,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{15D605DD-AAF2-428E-93A7-C9C7A4B5E515}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">112</Property>
+				<Property Name="Bld_version.build" Type="Int">118</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -2915,7 +2939,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[0].itemID" Type="Str">{B1393263-1B85-4BF7-8D97-9E9BFB5B129B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_base.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_base.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kyy_pid_4_Gyy_tustin_2ord_mVpnm_cd8a3_soscof_yy1.mat</Property>
@@ -2942,15 +2966,15 @@ DirectoryIndex index.htm
 				<Property Name="Source[17].itemID" Type="Ref">/RT CompactRIO Target/controller files/Kzz_pid_2_Gzz_tustin_2ord_mVpnm_cd8a3_soscof_zz2.mat</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_MultiTraj.vi</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_MultiTraj.vi</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_multi.html</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_FP_multi.html</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_dual.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_RT_dual.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_MultiTraj.html</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_FP_MultiTraj.html</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[21].itemID" Type="Ref">/RT CompactRIO Target/VP_RT_ModTrans.vi</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">TopLevel</Property>
@@ -2959,7 +2983,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[22].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_ModTrans.html</Property>
 				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/VP_FP_dual.html</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/old RT VIs and html/VP_FP_dual.html</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target/controller files/allzero_mVpnm_XX_XY_XZ_YX_YY_YZ_ZX_ZY_ZZ_woffst_soscoeff1.mat</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
