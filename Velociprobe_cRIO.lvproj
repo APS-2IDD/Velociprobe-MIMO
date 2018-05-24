@@ -3,14 +3,10 @@
 	<Property Name="varPersistentID:{00E67AA3-76FC-49D7-BC23-AAC9BA9DC2E3}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Controller_Type</Property>
 	<Property Name="varPersistentID:{0232476F-F4C8-430C-A7DB-C1250A6294A4}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:cRIO_Command</Property>
 	<Property Name="varPersistentID:{062C90B3-9098-4DA8-B44F-1B4AB2371497}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scanning</Property>
-	<Property Name="varPersistentID:{06B14448-5D4F-416E-AE2D-8D9A15B51CAC}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Traj_Freq</Property>
 	<Property Name="varPersistentID:{07806F75-83B8-41FF-B17C-107897E443F0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Start_nm</Property>
 	<Property Name="varPersistentID:{0B390427-CF17-4F64-93C2-6C75587D6E4A}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:cRIO_Dir</Property>
-	<Property Name="varPersistentID:{0CECEFDB-9885-4471-90E1-C000306D990E}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPX_Command</Property>
 	<Property Name="varPersistentID:{0D258439-B8E2-4924-8E2C-30664337A1B8}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Max radius</Property>
-	<Property Name="varPersistentID:{0FD51211-BA59-4389-9420-47180566C180}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Local_Lock</Property>
 	<Property Name="varPersistentID:{100C84A1-AC5D-48C6-9115-6F22DD5623C7}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Base_Filename</Property>
-	<Property Name="varPersistentID:{13D7C91B-4E7C-45AE-A1B8-A10343A946B9}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Start_nm</Property>
 	<Property Name="varPersistentID:{15F5A9D9-738F-4495-8E98-6D9238F106D6}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trig_DutyCycle_Per</Property>
 	<Property Name="varPersistentID:{16D6CD42-9A4E-4878-BA80-E8590E727808}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Step_Size_nm</Property>
 	<Property Name="varPersistentID:{170DCBE3-0E46-42EF-8FF5-7A16CC6AFA8B}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Main Loop Error</Property>
@@ -19,26 +15,16 @@
 	<Property Name="varPersistentID:{19D06A4C-C9D0-454B-9E3E-BD776B5DF8A1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Y Reference Amplitude (nm)</Property>
 	<Property Name="varPersistentID:{1D529166-11CE-4616-88D9-250CEBFC7A8E}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Base Filename</Property>
 	<Property Name="varPersistentID:{1E247449-724A-4D3F-A6DE-7A4F4A1DED62}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/X Ramp Start (nm)</Property>
-	<Property Name="varPersistentID:{1F6CAF56-6840-4D2A-852F-76021683601A}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Fly_Scan</Property>
 	<Property Name="varPersistentID:{20FB5FE2-034E-454F-BA48-1A60A71987C1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Rotation Direction</Property>
 	<Property Name="varPersistentID:{2360034C-EFDF-4500-A3F8-6CA8102AFF29}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Det duty cycle (%)</Property>
 	<Property Name="varPersistentID:{23723755-88BA-4CD4-AC7F-827D44BF8DDC}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Center</Property>
-	<Property Name="varPersistentID:{2520EF8A-B880-46EF-B021-5E4FE3CA1543}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPZ_Command</Property>
 	<Property Name="varPersistentID:{25443B6C-E09F-4D30-8CFF-1ED72C06D945}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trigger_Freq_Hz</Property>
-	<Property Name="varPersistentID:{25B53D88-9FA0-4BF8-85ED-E1B026DFA5B5}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPY_Command</Property>
 	<Property Name="varPersistentID:{276DA4F2-F844-4E69-88C6-AEEAC347CB41}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Error stream writer error</Property>
-	<Property Name="varPersistentID:{2872642F-3794-499D-BF3B-1F2E9DD9CA12}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPZ_Readback</Property>
 	<Property Name="varPersistentID:{292248C3-11ED-4740-8F3D-B73730FCE711}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPX_Readback</Property>
 	<Property Name="varPersistentID:{2D177B0E-329A-4A70-8EB8-130E220BA806}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scan_Type</Property>
-	<Property Name="varPersistentID:{2E2CCD5C-A260-4093-A1E4-50562FD5200F}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Data_DutyCycle</Property>
 	<Property Name="varPersistentID:{303174A8-EA4A-4945-878B-031E023B6082}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:FPGA_State</Property>
-	<Property Name="varPersistentID:{304D6279-AA5F-4E2E-8AB8-554D1BEFD763}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_End_nm</Property>
 	<Property Name="varPersistentID:{324B0DCA-C054-4839-A8BF-637A7A1B878A}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPX_Command</Property>
-	<Property Name="varPersistentID:{34818702-1E10-4D35-809E-2CD877E7C375}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:RT_State</Property>
 	<Property Name="varPersistentID:{3500A89E-62DE-472D-97B3-2E47DBC394E3}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Start_Scan</Property>
-	<Property Name="varPersistentID:{3D5FA7F0-7FE2-45B8-9211-F74B0459E126}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Center</Property>
-	<Property Name="varPersistentID:{43ABDE9B-BCD1-4672-8462-4504D127C504}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Start_Scan</Property>
-	<Property Name="varPersistentID:{44DDC30A-2595-4CC3-88E1-63A20F287E80}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scan_Trajectory</Property>
 	<Property Name="varPersistentID:{450F678C-D9A8-4C5C-AF5B-1FF0B0EF05FC}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Radial direction</Property>
 	<Property Name="varPersistentID:{48354A37-C628-4A62-B925-2193FB13F9EB}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Data writer loop</Property>
 	<Property Name="varPersistentID:{4E921C28-1492-4652-B86C-D343FC848997}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Stop System</Property>
@@ -46,77 +32,51 @@
 	<Property Name="varPersistentID:{537C0E9D-16E9-45F7-979E-55257A220252}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Y Ramp End (nm)</Property>
 	<Property Name="varPersistentID:{579BF611-4497-4628-951D-C4D72C8429E1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Readback Loop Error</Property>
 	<Property Name="varPersistentID:{5A7AB9DB-F6D4-4951-8E5E-54AF9B718D3E}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Inner Scan axis</Property>
-	<Property Name="varPersistentID:{5C333476-B7F4-465F-B0AC-FDA0327452EB}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_Step_Size_nm</Property>
-	<Property Name="varPersistentID:{5C3E81C0-0822-41E1-BE0A-CD85678656E8}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Write_Data</Property>
 	<Property Name="varPersistentID:{652C573F-17B4-4108-9B20-80F96968CFD0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Execute_Command</Property>
 	<Property Name="varPersistentID:{67BF1278-22DF-423B-BD1B-A2516E12FABF}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Y Ramp Start (nm)</Property>
-	<Property Name="varPersistentID:{6A362CCC-E1C8-4A9D-9962-8A7CF9D66B82}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:FPGA_State</Property>
 	<Property Name="varPersistentID:{6C4E7AD5-48A3-4D1A-811D-3B8AD879F463}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Traj_Freq</Property>
 	<Property Name="varPersistentID:{6D3443C4-8423-489C-A9CA-6231E3D3CF29}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Data frequency (Hz)</Property>
 	<Property Name="varPersistentID:{6E407493-460E-4E62-8474-1E20EDC7CACE}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Center</Property>
-	<Property Name="varPersistentID:{70EEC0F0-9B40-4778-95C2-820C9EDEE047}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Execute_Command</Property>
 	<Property Name="varPersistentID:{771CEBFB-D8B2-4ACD-815D-05BB8EC34ECE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Command Loop Error</Property>
 	<Property Name="varPersistentID:{7876B528-445D-4969-B1A3-19BA3C191C82}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Data stream writer error</Property>
 	<Property Name="varPersistentID:{79F6306E-AD02-41C0-BADF-05AFD421D4A0}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Z Reference Amplitude (nm)</Property>
 	<Property Name="varPersistentID:{82AFBE78-482D-4B23-BE26-F4A405760BA4}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPY_Command</Property>
 	<Property Name="varPersistentID:{88D4F77A-BF00-4F19-9B38-154FEFEF2FFA}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:System_Loop_Type</Property>
 	<Property Name="varPersistentID:{8954425A-1863-4276-B372-092324D6A911}" Type="Ref">/My Computer/Host Interloop communications.lvlib/cRIO status</Property>
-	<Property Name="varPersistentID:{8CE77E35-C09D-43AF-8E4E-EEA62B191A9B}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Center</Property>
-	<Property Name="varPersistentID:{8EB3AF6E-A668-48FF-90F2-C97AB835EDE7}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Radial_Direction</Property>
-	<Property Name="varPersistentID:{8F899C02-1B9A-49F4-AB68-C065DEFA8F6A}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trig_DutyCycle_Per</Property>
 	<Property Name="varPersistentID:{909B8FD4-D04C-4FD8-8AE0-8E289CEEA62D}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/New Command</Property>
 	<Property Name="varPersistentID:{9296C7B9-9CA4-447D-8AC9-8A8741AC7A2F}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Write Data</Property>
 	<Property Name="varPersistentID:{93F44B45-9FA3-4427-B370-78104688D01E}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/X Ramp End (nm)</Property>
-	<Property Name="varPersistentID:{98247DAE-A8D3-4B01-8DCC-B4D47838BBB3}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Trigger_Freq_Hz</Property>
 	<Property Name="varPersistentID:{9ADF1DCE-79B3-4962-A6EB-AF0584F3EFD3}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Spiral_Step</Property>
 	<Property Name="varPersistentID:{9B2BDE3D-0A6B-4D70-8739-E94B3FED7BA5}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scanning</Property>
 	<Property Name="varPersistentID:{9BCA76E7-2E04-448D-A79B-910C4E54BFBC}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Write_Data</Property>
 	<Property Name="varPersistentID:{9C3D7BBF-8950-48C2-8BBA-AAE85FAA9212}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Fly Scan Flag</Property>
 	<Property Name="varPersistentID:{A296F533-A6F2-44F5-9FB2-4A4E668EE272}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Data_Freq_Hz</Property>
-	<Property Name="varPersistentID:{A4D8733E-132D-4D63-86D1-F81B407584E0}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Data_Save_Trigger</Property>
-	<Property Name="varPersistentID:{A77C03F9-1027-4491-B7B7-FE59B23C56F2}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:System_Loop_Type</Property>
 	<Property Name="varPersistentID:{A9215F95-12B7-4497-9197-F331ABC5510D}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Radial_Direction</Property>
 	<Property Name="varPersistentID:{B12C8F51-7B45-42BA-9445-60788B28B66C}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Data_DutyCycle</Property>
 	<Property Name="varPersistentID:{B4E13D5F-DB4D-4B4C-B39A-E4C1FA699AC8}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/EPICS command error</Property>
-	<Property Name="varPersistentID:{B6F95373-AADC-4D29-A900-207E79AB4DB2}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Remote_Scan</Property>
-	<Property Name="varPersistentID:{B7720FB4-4EB5-46F6-9BBB-948F8E587468}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:cRIO_Dir</Property>
-	<Property Name="varPersistentID:{B823BB1F-04F1-49C8-A416-D85660AC3C62}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Last_Filename</Property>
-	<Property Name="varPersistentID:{B85FB550-ABF4-49C1-AF79-7E21FB66B595}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Spiral_Step</Property>
-	<Property Name="varPersistentID:{BD520A63-207A-4815-8FFA-485FD7B81DF8}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:cRIO_Command</Property>
-	<Property Name="varPersistentID:{BEDD4C8B-E99A-49CE-ADAB-CE4D8467EA28}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Start_nm</Property>
-	<Property Name="varPersistentID:{BF63E6D1-1B1F-4D30-9C11-275A12FF7A57}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Controller_Type</Property>
 	<Property Name="varPersistentID:{C463ECF1-AA3F-409E-B686-B5DC0D591D60}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Last_Filename</Property>
 	<Property Name="varPersistentID:{C4DCD679-13E5-4D84-A98B-D69E74705A9B}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Data duty cycle (%)</Property>
 	<Property Name="varPersistentID:{C68DC714-70D2-4AF7-BA99-F3471D04B1C1}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/FPGA startup error</Property>
 	<Property Name="varPersistentID:{C8E4E2E9-CD1B-4C58-BD6F-A0E87B99F550}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Fly_Scan</Property>
 	<Property Name="varPersistentID:{C9D80765-C317-4354-B47E-6E4A92E126F4}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scan_Trajectory</Property>
-	<Property Name="varPersistentID:{CA09690B-7866-4DAB-BDB9-AFE406C3C4B3}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Step_Size_nm</Property>
-	<Property Name="varPersistentID:{CA13C718-432E-4BDE-8C83-1FE94AB2C155}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Rotation_Direction</Property>
 	<Property Name="varPersistentID:{CBA1F887-4B64-481D-A561-A13D031B7450}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:RT_State</Property>
 	<Property Name="varPersistentID:{CC8024EE-6337-4670-A745-5F4925704B81}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Y Step Size (nm)</Property>
 	<Property Name="varPersistentID:{D445E718-F372-4531-83A3-C074BD004F58}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Remote_Scan</Property>
-	<Property Name="varPersistentID:{D6E6DB34-5E5C-4CD8-90E7-73686B9B1E02}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Base_Filename</Property>
 	<Property Name="varPersistentID:{D91DBBE3-CEED-4DAE-AF23-906E085C87A1}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Local_Lock</Property>
-	<Property Name="varPersistentID:{DB2FCAFC-438B-4FB6-A06C-F67CDF9B4161}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPY_Readback</Property>
 	<Property Name="varPersistentID:{DC06C484-F4D1-4724-BA52-72B10A9B60CE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/System command</Property>
 	<Property Name="varPersistentID:{DDBA4B19-2FCC-4BA8-A08F-DDAAC33AC61C}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Inner_Scan_Axis</Property>
-	<Property Name="varPersistentID:{DECBC9D0-84F3-4C2A-B264-D256240E5EBB}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPX_Readback</Property>
-	<Property Name="varPersistentID:{DEE2F99A-176F-46E6-9E96-0B0465864426}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Max_Radius</Property>
 	<Property Name="varPersistentID:{E1CC40B3-DEB7-457A-9396-BDA3FBD283FC}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPY_Readback</Property>
 	<Property Name="varPersistentID:{E38D46B2-C5A1-4DC5-A60D-E8FBDF4F21DF}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Start_nm</Property>
 	<Property Name="varPersistentID:{E3CEE3BE-7FA1-4AC9-BB61-60C363B308EB}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Spiral Step Size</Property>
 	<Property Name="varPersistentID:{E5F42327-EF61-4E59-8A87-F244ED5ADDD6}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Data_Freq_Hz</Property>
 	<Property Name="varPersistentID:{E8059795-460F-4DEB-8ED1-B03439DF65D6}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Rotation_Direction</Property>
 	<Property Name="varPersistentID:{EB39AC6D-4DBC-44A4-98ED-C75D42DB4616}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:X_End_nm</Property>
-	<Property Name="varPersistentID:{EBD2DCDC-50F7-4C5C-B902-DD730CEAA21B}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Inner_Scan_Axis</Property>
 	<Property Name="varPersistentID:{F07EE1CD-EA6F-43C3-B54B-F6530B3C650E}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPZ_Readback</Property>
-	<Property Name="varPersistentID:{F36BF93F-1021-43D0-A54B-906556DA258D}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Scan_Type</Property>
 	<Property Name="varPersistentID:{F5942C9D-AA02-4DD8-93B2-A788B2F3BAE0}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/Det Frequency (Hz)</Property>
 	<Property Name="varPersistentID:{F96D65BB-316E-45A7-A78F-45ECE83673BE}" Type="Ref">/RT CompactRIO Target/Interloop communication.lvlib/X Step Size (nm)</Property>
 	<Property Name="varPersistentID:{F9B7B7E1-427A-44B1-84C0-E951424CD391}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_Step_Size_nm</Property>
 	<Property Name="varPersistentID:{FBA44DE5-1498-45AF-BD62-A538893FFBE0}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_End_nm</Property>
 	<Property Name="varPersistentID:{FC2C7C6F-0545-4CC6-B027-F775678CCD15}" Type="Ref">/RT CompactRIO Target/RT_EPICS_Shared_Variables.lvlib/2iddVELO:LabView:ZPZ_Command</Property>
-	<Property Name="varPersistentID:{FDC6CFFD-A44F-456E-933C-F82B89B98D6E}" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib/2iddVELO:VP:Y_End_nm</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -144,6 +104,7 @@
 		<Item Name="Host_EPICS_Shared_Variables.lvlib" Type="Library" URL="../Host VIs/Host_Client/Host_EPICS_Shared_Variables.lvlib"/>
 		<Item Name="UI states.ctl" Type="VI" URL="../Host VIs/UI states.ctl"/>
 		<Item Name="VP_Host_ModTrans.vi" Type="VI" URL="../Host VIs/VP_Host_ModTrans.vi"/>
+		<Item Name="VP_Monitr.ico" Type="Document" URL="../VP_Monitr.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -196,7 +157,55 @@
 			</Item>
 			<Item Name="Stream SM states.ctl" Type="VI" URL="../RT VIs/Stream SM states.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Velociprobe cRIO Monitor EXE" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{B7962AB9-889A-4136-BF92-59DB9E646D46}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{DA20E468-784F-459C-9CBF-6D5B90F6B362}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E6E20FFB-B581-44D3-A443-0DCCE8D5B04A}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Executable for program that monitors the Velociprobe's CompactRIO (NI-9039). It plots the latest scans and can reboot the cRIO.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Velociprobe cRIO Monitor EXE</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Velociprobe cRIO Monitor EXE</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{EAECE482-8236-4EC6-9A38-BFD441A15463}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">VP_cRIO-Monitor.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Velociprobe cRIO Monitor EXE/VP_cRIO-Monitor.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Velociprobe cRIO Monitor EXE/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/VP_Monitr.ico</Property>
+				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
+				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/My Computer/Host_EPICS_Client.lvlib</Property>
+				<Property Name="Exe_Vardep[1].LibDeploy" Type="Bool">true</Property>
+				<Property Name="Exe_Vardep[1].LibItemID" Type="Ref">/My Computer/Host_EPICS_Shared_Variables.lvlib</Property>
+				<Property Name="Exe_Vardep[2].LibItemID" Type="Ref">/RT CompactRIO Target/RT_EPICS_Client.lvlib</Property>
+				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
+				<Property Name="Exe_VardepLibItemCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DFAB83CD-0400-48A9-AE3A-C4A8914C3A14}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VP_Host_ModTrans.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Velociprobe cRIO Monitor EXE</Property>
+				<Property Name="TgtF_internalName" Type="Str">Velociprobe cRIO Monitor EXE</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
+				<Property Name="TgtF_productName" Type="Str">Velociprobe cRIO Monitor EXE</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{BBD9AF38-DE6E-4735-A510-1464C7540712}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">VP_cRIO-Monitor.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
@@ -2174,19 +2183,6 @@ DirectoryIndex index.htm
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
-					<Item Name="Detector_Trigger_Control.ctl" Type="VI" URL="../FPGA VIs/Detector_Trigger_Control.ctl"/>
-					<Item Name="measure_loop_rate_FPGA.vi" Type="VI" URL="../FPGA VIs/measure_loop_rate_FPGA.vi"/>
-					<Item Name="Saw Wave Generator.vi" Type="VI" URL="../FPGA VIs/Saw Wave Generator.vi"/>
-					<Item Name="Scan type.ctl" Type="VI" URL="../RT VIs/Scan type.ctl"/>
-					<Item Name="Scan Geometry.ctl" Type="VI" URL="../FPGA VIs/Scan Geometry.ctl"/>
-					<Item Name="spiral radial direction.ctl" Type="VI" URL="../FPGA VIs/spiral radial direction.ctl"/>
-					<Item Name="spiral rotation direction.ctl" Type="VI" URL="../FPGA VIs/spiral rotation direction.ctl"/>
-					<Item Name="Inner Scan axis.ctl" Type="VI" URL="../FPGA VIs/Inner Scan axis.ctl"/>
-					<Item Name="Trajectory FGV states.ctl" Type="VI" URL="../FPGA VIs/Trajectory FGV states.ctl"/>
-					<Item Name="arch spiral FGV.vi" Type="VI" URL="../FPGA VIs/arch spiral FGV.vi"/>
-					<Item Name="grid spiral FGV.vi" Type="VI" URL="../FPGA VIs/grid spiral FGV.vi"/>
-					<Item Name="grid spiral direction.ctl" Type="VI" URL="../FPGA VIs/grid spiral direction.ctl"/>
-					<Item Name="snake FGV.vi" Type="VI" URL="../FPGA VIs/snake FGV.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Velociprobe_Nanopositioner_Control_FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -2919,7 +2915,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{15D605DD-AAF2-428E-93A7-C9C7A4B5E515}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">118</Property>
+				<Property Name="Bld_version.build" Type="Int">125</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
