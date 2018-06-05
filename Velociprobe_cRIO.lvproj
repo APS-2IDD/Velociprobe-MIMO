@@ -152,6 +152,9 @@
 			</Item>
 			<Item Name="Data stream reader global.vi" Type="VI" URL="../Host VIs/Data stream reader global.vi"/>
 			<Item Name="Error stream reader global.vi" Type="VI" URL="../Host VIs/Error stream reader global.vi"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Stream SM states.ctl" Type="VI" URL="../RT VIs/Stream SM states.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -2549,6 +2552,7 @@ DirectoryIndex index.htm
 		<Item Name="VP_FP_ModTrans.html" Type="Document" URL="../www/VP_FP_ModTrans.html"/>
 		<Item Name="Data stream writer.vi" Type="VI" URL="../RT VIs/Data stream writer.vi"/>
 		<Item Name="Error stream writer.vi" Type="VI" URL="../RT VIs/Error stream writer.vi"/>
+		<Item Name="Clear FPGA FIFO.vi" Type="VI" URL="../RT VIs/Clear FPGA FIFO.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -3003,7 +3007,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{15D605DD-AAF2-428E-93A7-C9C7A4B5E515}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">128</Property>
+				<Property Name="Bld_version.build" Type="Int">129</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
